@@ -1,0 +1,11 @@
+[0.184s] Invoking command in '/home/umarv/ws/build/nav2_straightline_planner': /usr/bin/cmake --build /home/umarv/ws/build/nav2_straightline_planner -- -j8 -l8
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target nav2_straightline_planner_plugin[0m
+[0.228s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[0.522s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:49:10:[m[K [01;31m[Kfatal error: [m[K../include/rpastar.h: No such file or directory
+[0.522s]    49 | #include [01;31m[K"../include/rpastar.h"[m[K
+[0.522s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.523s] compilation terminated.
+[0.525s] gmake[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:76: CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] Error 1
+[0.526s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_straightline_planner_plugin.dir/all] Error 2
+[0.526s] gmake: *** [Makefile:146: all] Error 2
+[0.528s] Invoked command in '/home/umarv/ws/build/nav2_straightline_planner' returned '2': /usr/bin/cmake --build /home/umarv/ws/build/nav2_straightline_planner -- -j8 -l8

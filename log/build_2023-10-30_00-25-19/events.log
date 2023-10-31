@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000190] (nav2_gps_waypoint_follower_demo) JobQueued: {'identifier': 'nav2_gps_waypoint_follower_demo', 'dependencies': OrderedDict()}
+[0.000253] (nav2_gradient_costmap_plugin) JobQueued: {'identifier': 'nav2_gradient_costmap_plugin', 'dependencies': OrderedDict()}
+[0.000299] (nav2_sms_behavior) JobQueued: {'identifier': 'nav2_sms_behavior', 'dependencies': OrderedDict()}
+[0.000343] (nav2_straightline_planner) JobQueued: {'identifier': 'nav2_straightline_planner', 'dependencies': OrderedDict()}
+[0.000376] (sam_bot_description) JobQueued: {'identifier': 'sam_bot_description', 'dependencies': OrderedDict()}
+[0.000424] (nav2_gps_waypoint_follower_demo) JobStarted: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.015016] (nav2_gradient_costmap_plugin) JobStarted: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.025804] (nav2_sms_behavior) JobStarted: {'identifier': 'nav2_sms_behavior'}
+[0.036842] (nav2_straightline_planner) JobStarted: {'identifier': 'nav2_straightline_planner'}
+[0.048195] (sam_bot_description) JobStarted: {'identifier': 'sam_bot_description'}
+[0.097654] (-) TimerEvent: {}
+[0.198112] (-) TimerEvent: {}
+[0.209251] (nav2_gradient_costmap_plugin) JobProgress: {'identifier': 'nav2_gradient_costmap_plugin', 'progress': 'cmake'}
+[0.209782] (nav2_gradient_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/install/nav2_gradient_costmap_plugin'], 'cwd': '/home/umarv/ws/build/nav2_gradient_costmap_plugin', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'umarv-ros2'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'umarv'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/umarv/ws/build/nav2_gradient_costmap_plugin'), ('COLCON', '1')]), 'shell': False}
+[0.212473] (nav2_sms_behavior) JobProgress: {'identifier': 'nav2_sms_behavior', 'progress': 'cmake'}
+[0.213390] (nav2_sms_behavior) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/install/nav2_sms_behavior'], 'cwd': '/home/umarv/ws/build/nav2_sms_behavior', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'umarv-ros2'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'umarv'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/umarv/ws/build/nav2_sms_behavior'), ('COLCON', '1')]), 'shell': False}
+[0.214741] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'cmake'}
+[0.215822] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/install/nav2_straightline_planner'], 'cwd': '/home/umarv/ws/build/nav2_straightline_planner', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'umarv-ros2'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'umarv'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/umarv/ws/build/nav2_straightline_planner'), ('COLCON', '1')]), 'shell': False}
+[0.221019] (sam_bot_description) JobProgress: {'identifier': 'sam_bot_description', 'progress': 'cmake'}
+[0.222235] (sam_bot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/sam_bot_description', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/install/sam_bot_description'], 'cwd': '/home/umarv/ws/build/sam_bot_description', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'umarv-ros2'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'umarv'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/umarv/ws/build/sam_bot_description'), ('COLCON', '1')]), 'shell': False}
+[0.234251] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (find_package):\n'}
+[0.234507] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.234637] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.234724] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.234911] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.235124] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.235194] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  any of the following names:\n'}
+[0.235571] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.235700] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.235762] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.235959] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.236107] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.236918] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.237261] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.239023] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'  has been installed.\n'}
+[0.240513] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\n'}
+[0.241107] (nav2_gradient_costmap_plugin) StderrLine: {'line': b'\x1b[0m\n'}
+[0.241477] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.242142] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'See also "/home/umarv/ws/build/nav2_gradient_costmap_plugin/CMakeFiles/CMakeOutput.log".\n'}
+[0.242366] (nav2_sms_behavior) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.242524] (nav2_sms_behavior) StdoutLine: {'line': b'See also "/home/umarv/ws/build/nav2_sms_behavior/CMakeFiles/CMakeOutput.log".\n'}
+[0.242642] (nav2_sms_behavior) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:8 (find_package):\n'}
+[0.242741] (nav2_sms_behavior) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.242806] (nav2_sms_behavior) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.243752] (nav2_sms_behavior) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.243983] (nav2_sms_behavior) StderrLine: {'line': b'\n'}
+[0.246450] (nav2_sms_behavior) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.247041] (nav2_sms_behavior) StderrLine: {'line': b'  any of the following names:\n'}
+[0.247731] (nav2_sms_behavior) StderrLine: {'line': b'\n'}
+[0.248296] (nav2_sms_behavior) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.248568] (nav2_sms_behavior) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.248773] (nav2_sms_behavior) StderrLine: {'line': b'\n'}
+[0.251583] (nav2_sms_behavior) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.252278] (nav2_sms_behavior) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.252417] (nav2_sms_behavior) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.252522] (nav2_sms_behavior) StderrLine: {'line': b'  has been installed.\n'}
+[0.252587] (nav2_sms_behavior) StderrLine: {'line': b'\n'}
+[0.252678] (nav2_sms_behavior) StderrLine: {'line': b'\x1b[0m\n'}
+[0.252772] (nav2_straightline_planner) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[0.252890] (nav2_straightline_planner) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.252959] (nav2_straightline_planner) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.253025] (nav2_straightline_planner) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.253162] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.253270] (nav2_straightline_planner) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.253388] (nav2_straightline_planner) StderrLine: {'line': b'  any of the following names:\n'}
+[0.254974] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.256120] (nav2_straightline_planner) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.259282] (nav2_straightline_planner) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.259751] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.259993] (nav2_straightline_planner) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.260284] (nav2_straightline_planner) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.260637] (nav2_straightline_planner) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.260966] (nav2_straightline_planner) StderrLine: {'line': b'  has been installed.\n'}
+[0.261090] (nav2_straightline_planner) StderrLine: {'line': b'\n'}
+[0.261834] (nav2_straightline_planner) StderrLine: {'line': b'\x1b[0m\n'}
+[0.262151] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.263300] (nav2_straightline_planner) StdoutLine: {'line': b'See also "/home/umarv/ws/build/nav2_straightline_planner/CMakeFiles/CMakeOutput.log".\n'}
+[0.264290] (nav2_gradient_costmap_plugin) CommandEnded: {'returncode': 1}
+[0.265261] (nav2_sms_behavior) CommandEnded: {'returncode': 1}
+[0.265749] (sam_bot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.266090] (sam_bot_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.266415] (sam_bot_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.267126] (sam_bot_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.267324] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.267605] (sam_bot_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.267844] (sam_bot_description) StderrLine: {'line': b'  any of the following names:\n'}
+[0.268127] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.268507] (sam_bot_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.268949] (sam_bot_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.269858] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.270579] (sam_bot_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.270856] (sam_bot_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.271071] (sam_bot_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.271386] (sam_bot_description) StderrLine: {'line': b'  has been installed.\n'}
+[0.272007] (sam_bot_description) StderrLine: {'line': b'\n'}
+[0.273672] (sam_bot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.274503] (sam_bot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.275101] (sam_bot_description) StdoutLine: {'line': b'See also "/home/umarv/ws/build/sam_bot_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.275666] (nav2_straightline_planner) CommandEnded: {'returncode': 1}
+[0.276359] (sam_bot_description) CommandEnded: {'returncode': 1}
+[0.284521] (nav2_gradient_costmap_plugin) JobEnded: {'identifier': 'nav2_gradient_costmap_plugin', 'rc': 1}
+[0.287598] (nav2_sms_behavior) JobEnded: {'identifier': 'nav2_sms_behavior', 'rc': 'SIGINT'}
+[0.288439] (nav2_straightline_planner) JobEnded: {'identifier': 'nav2_straightline_planner', 'rc': 'SIGINT'}
+[0.288772] (sam_bot_description) JobEnded: {'identifier': 'sam_bot_description', 'rc': 'SIGINT'}
+[0.298354] (-) TimerEvent: {}
+[0.398815] (-) TimerEvent: {}
+[0.440855] (nav2_gps_waypoint_follower_demo) JobEnded: {'identifier': 'nav2_gps_waypoint_follower_demo', 'rc': 'SIGINT'}
+[0.451750] (-) EventReactorShutdown: {}

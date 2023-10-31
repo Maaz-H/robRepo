@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/umarv/ws/src/navigation2_tutorials/nav2_core/CMakeLists.txt" does not match the source "/home/umarv/ws/src/nav2_core/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

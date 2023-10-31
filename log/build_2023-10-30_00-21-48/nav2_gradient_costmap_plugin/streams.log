@@ -1,0 +1,33 @@
+[0.213s] Invoking command in '/home/umarv/ws/build/nav2_gradient_costmap_plugin': /usr/bin/cmake /home/umarv/ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/install/nav2_gradient_costmap_plugin
+[0.271s] -- The C compiler identification is GNU 11.4.0
+[0.341s] -- The CXX compiler identification is GNU 11.4.0
+[0.356s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.444s] -- Detecting CXX compiler ABI info
+[0.530s] -- Detecting CXX compiler ABI info - done
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.539s] -- Detecting CXX compile features - done
+[0.556s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[0.556s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.556s]   has asked CMake to find a package configuration file provided by
+[0.556s]   "ament_cmake", but CMake did not find one.
+[0.556s] 
+[0.556s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.557s]   any of the following names:
+[0.557s] 
+[0.557s]     ament_cmakeConfig.cmake
+[0.557s]     ament_cmake-config.cmake
+[0.557s] 
+[0.557s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.557s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.557s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.557s]   has been installed.
+[0.558s] 
+[0.558s] -- Configuring incomplete, errors occurred!
+[0.558s] See also "/home/umarv/ws/build/nav2_gradient_costmap_plugin/CMakeFiles/CMakeOutput.log".
+[0.558s] [0m
+[0.566s] Invoked command in '/home/umarv/ws/build/nav2_gradient_costmap_plugin' returned '1': /usr/bin/cmake /home/umarv/ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/install/nav2_gradient_costmap_plugin

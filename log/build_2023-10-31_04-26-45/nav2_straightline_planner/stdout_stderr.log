@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_straightline_planner_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K In member function ‘[01m[Kbool nav2_straightline_planner::StraightLine::makePlan(const PoseStamped&, const PoseStamped&, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&)[m[K’:
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krpastar[m[K’ was not declared in this scope
+  152 |     [01;31m[Krpastar[m[K runner(first, last, costmap_);
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:153:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krunner[m[K’ was not declared in this scope
+  153 |     [01;31m[Krunner[m[K.search();
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K At global scope:
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:165:139:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’?
+  165 |  nav2_costmap_2d::Costmap2D* map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::[01;31m[KPoseStamped[m[K>& plan)
+      |                                                                                                     [01;31m[K^~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:49[m[K,
+                 from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:48[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ declared here
+  135 | using [01;36m[KPoseStamped[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:165:150:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 | stmap_2d::Costmap2D* map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped[01;31m[K>[m[K& plan)
+      |                                                                                                        [01;31m[K^[m[K
+
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:165:150:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:165:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid nav2_straightline_planner::StraightLine::generate_path(const nav2_costmap_2d::Costmap2D*, std::vector<std::pair<int, int> >&, int&)[m[K’
+  165 | void [01;31m[KStraightLine[m[K::generate_path(const nav2_costmap_2d::Costmap2D* map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan)
+      |      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:48[m[K:
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:86:6:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid nav2_straightline_planner::StraightLine::generate_path(const nav2_costmap_2d::Costmap2D*, std::vector<std::pair<int, int> >&, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&)[m[K’
+   86 | void [01;36m[Kgenerate_path[m[K(const nav2_costmap_2d::Costmap2D* map,
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:60:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass nav2_straightline_planner::StraightLine[m[K’ defined here
+   60 | class [01;36m[KStraightLine[m[K : public nav2_core::GlobalPlanner
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:186:21:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Knav_msgs::msg::Path nav2_straightline_planner::StraightLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+  186 | nav_msgs::msg::Path [01;31m[KStraightLine[m[K::createPlan(
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:92:21:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual nav_msgs::msg::Path nav2_straightline_planner::StraightLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’ previously defined here
+   92 | nav_msgs::msg::Path [01;36m[KStraightLine[m[K::createPlan(
+      |                     [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:76: CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_straightline_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

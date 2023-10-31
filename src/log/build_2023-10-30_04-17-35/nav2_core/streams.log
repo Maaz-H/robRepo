@@ -1,0 +1,35 @@
+[0.018s] Invoking command in '/home/umarv/ws/src/build/nav2_core': /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_core -- -j8 -l8
+[0.044s] Invoked command in '/home/umarv/ws/src/build/nav2_core' returned '0': /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_core -- -j8 -l8
+[0.064s] Invoking command in '/home/umarv/ws/src/build/nav2_core': /usr/bin/cmake --install /home/umarv/ws/src/build/nav2_core
+[0.068s] -- Install configuration: "Release"
+[0.068s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include/
+[0.068s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core
+[0.069s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/goal_checker.hpp
+[0.069s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/smoother.hpp
+[0.069s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/global_planner.hpp
+[0.069s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/behavior.hpp
+[0.069s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/waypoint_task_executor.hpp
+[0.069s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/progress_checker.hpp
+[0.069s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/controller_exceptions.hpp
+[0.070s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/behavior_tree_navigator.hpp
+[0.070s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/smoother_exceptions.hpp
+[0.070s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/planner_exceptions.hpp
+[0.070s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/include//nav2_core/controller.hpp
+[0.070s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/ament_index/resource_index/package_run_dependencies/nav2_core
+[0.070s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/ament_index/resource_index/parent_prefix_path/nav2_core
+[0.070s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/environment/ament_prefix_path.dsv
+[0.071s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/environment/path.sh
+[0.071s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/environment/path.dsv
+[0.072s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/local_setup.bash
+[0.072s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/local_setup.sh
+[0.073s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/local_setup.zsh
+[0.073s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/local_setup.dsv
+[0.074s] -- Installing: /home/umarv/ws/src/install/nav2_core/share/nav2_core/package.dsv
+[0.074s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/ament_index/resource_index/packages/nav2_core
+[0.075s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.075s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.076s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/cmake/nav2_coreConfig.cmake
+[0.076s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/cmake/nav2_coreConfig-version.cmake
+[0.077s] -- Up-to-date: /home/umarv/ws/src/install/nav2_core/share/nav2_core/package.xml
+[0.078s] Invoked command in '/home/umarv/ws/src/build/nav2_core' returned '0': /usr/bin/cmake --install /home/umarv/ws/src/build/nav2_core

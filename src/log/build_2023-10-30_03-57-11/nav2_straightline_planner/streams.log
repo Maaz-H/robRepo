@@ -1,0 +1,2 @@
+[0.095s] Invoking command in '/home/umarv/ws/src/build/nav2_straightline_planner': AMENT_PREFIX_PATH=/home/umarv/ws/src/install/nav2_core CMAKE_PREFIX_PATH=/home/umarv/ws/src/install/nav2_core /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_straightline_planner -- -j8 -l8
+[0.152s] [100%] Built target nav2_straightline_planner_plugin

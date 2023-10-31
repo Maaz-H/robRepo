@@ -1,0 +1,660 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (nav2_gps_waypoint_follower_demo) JobQueued: {'identifier': 'nav2_gps_waypoint_follower_demo', 'dependencies': OrderedDict()}
+[0.000341] (nav2_gradient_costmap_plugin) JobQueued: {'identifier': 'nav2_gradient_costmap_plugin', 'dependencies': OrderedDict()}
+[0.001346] (nav2_sms_behavior) JobQueued: {'identifier': 'nav2_sms_behavior', 'dependencies': OrderedDict()}
+[0.001424] (nav2_straightline_planner) JobQueued: {'identifier': 'nav2_straightline_planner', 'dependencies': OrderedDict()}
+[0.001759] (sam_bot_description) JobQueued: {'identifier': 'sam_bot_description', 'dependencies': OrderedDict()}
+[0.001925] (nav2_gps_waypoint_follower_demo) JobStarted: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.046339] (nav2_gradient_costmap_plugin) JobStarted: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.079504] (nav2_sms_behavior) JobStarted: {'identifier': 'nav2_sms_behavior'}
+[0.099151] (-) TimerEvent: {}
+[0.111150] (nav2_straightline_planner) JobStarted: {'identifier': 'nav2_straightline_planner'}
+[0.143258] (sam_bot_description) JobStarted: {'identifier': 'sam_bot_description'}
+[0.199282] (-) TimerEvent: {}
+[0.299726] (-) TimerEvent: {}
+[0.379466] (nav2_gradient_costmap_plugin) JobProgress: {'identifier': 'nav2_gradient_costmap_plugin', 'progress': 'cmake'}
+[0.381364] (nav2_gradient_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_gradient_costmap_plugin'], 'cwd': '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.384241] (nav2_sms_behavior) JobProgress: {'identifier': 'nav2_sms_behavior', 'progress': 'cmake'}
+[0.384603] (nav2_sms_behavior) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_sms_behavior'], 'cwd': '/home/umarv/ws/src/build/nav2_sms_behavior', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_sms_behavior'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.388270] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'cmake'}
+[0.388568] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_straightline_planner'], 'cwd': '/home/umarv/ws/src/build/nav2_straightline_planner', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_straightline_planner'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.395019] (sam_bot_description) JobProgress: {'identifier': 'sam_bot_description', 'progress': 'cmake'}
+[0.395150] (sam_bot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/sam_bot_description', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/sam_bot_description'], 'cwd': '/home/umarv/ws/src/build/sam_bot_description', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/sam_bot_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.400098] (-) TimerEvent: {}
+[0.402271] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.402692] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.402883] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.407631] (sam_bot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500204] (-) TimerEvent: {}
+[0.597489] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600333] (-) TimerEvent: {}
+[0.602697] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.604699] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.608202] (sam_bot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.700458] (-) TimerEvent: {}
+[0.728343] (nav2_gps_waypoint_follower_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nav2_gps_waypoint_follower_demo', 'build', '--build-base', '/home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build', 'install', '--record', '/home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/install.log', '--single-version-externally-managed'], 'cwd': '/home/umarv/ws/src/navigation2_tutorials/nav2_gps_waypoint_follower_demo', 'env': {'HOSTNAME': 'umarv-ros2', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/umarv', 'OLDPWD': '/home/umarv/ws', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/opt/ros/humble/', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LIBVA_DRIVER_NAME': 'd3d12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/prefix_override:/home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.736646] (sam_bot_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.737045] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.737205] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.737323] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.739548] (sam_bot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800610] (-) TimerEvent: {}
+[0.809016] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.809403] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.809554] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.817370] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.817584] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.817711] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.832087] (sam_bot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.834616] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.834800] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.835006] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.835107] (sam_bot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.835810] (sam_bot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.836715] (sam_bot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.838544] (sam_bot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.840840] (sam_bot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.844317] (sam_bot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.845198] (sam_bot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/umarv/ws/src/build/sam_bot_description\n'}
+[0.848192] (sam_bot_description) CommandEnded: {'returncode': 0}
+[0.849903] (sam_bot_description) JobProgress: {'identifier': 'sam_bot_description', 'progress': 'build'}
+[0.850173] (sam_bot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/umarv/ws/src/build/sam_bot_description', '--', '-j8', '-l8'], 'cwd': '/home/umarv/ws/src/build/sam_bot_description', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/sam_bot_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.857496] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.857886] (nav2_straightline_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.858269] (nav2_sms_behavior) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.880678] (sam_bot_description) CommandEnded: {'returncode': 0}
+[0.883254] (nav2_sms_behavior) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.883549] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.883720] (nav2_straightline_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.898984] (sam_bot_description) JobProgress: {'identifier': 'sam_bot_description', 'progress': 'install'}
+[0.900703] (-) TimerEvent: {}
+[0.906276] (sam_bot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/umarv/ws/src/build/sam_bot_description'], 'cwd': '/home/umarv/ws/src/build/sam_bot_description', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/sam_bot_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.912058] (sam_bot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.912264] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/src\n'}
+[0.912420] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/src/description\n'}
+[0.912616] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf\n'}
+[0.912798] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/launch\n'}
+[0.912959] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py\n'}
+[0.913080] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/rviz\n'}
+[0.913275] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/rviz/urdf_config.rviz\n'}
+[0.913397] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/config\n'}
+[0.913588] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml\n'}
+[0.913686] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml\n'}
+[0.913758] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/world\n'}
+[0.913810] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf\n'}
+[0.914062] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description\n'}
+[0.914245] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description\n'}
+[0.914414] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh\n'}
+[0.914647] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv\n'}
+[0.914828] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/environment/path.sh\n'}
+[0.914965] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/environment/path.dsv\n'}
+[0.915042] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/local_setup.bash\n'}
+[0.915291] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/local_setup.sh\n'}
+[0.915509] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/local_setup.zsh\n'}
+[0.915597] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/local_setup.dsv\n'}
+[0.915760] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.dsv\n'}
+[0.915913] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description\n'}
+[0.916247] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake\n'}
+[0.916376] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake\n'}
+[0.916495] (sam_bot_description) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.xml\n'}
+[0.917946] (sam_bot_description) CommandEnded: {'returncode': 0}
+[0.923362] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.924529] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info\n'}
+[0.924804] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/PKG-INFO\n'}
+[0.925217] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing dependency_links to ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/dependency_links.txt\n'}
+[0.925825] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing entry points to ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/entry_points.txt\n'}
+[0.926343] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing requirements to ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/requires.txt\n'}
+[0.927876] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing top-level names to ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/top_level.txt\n'}
+[0.928250] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b"writing manifest file '../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'\n"}
+[0.929158] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b"reading manifest file '../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'\n"}
+[0.929451] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b"writing manifest file '../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'\n"}
+[0.929995] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running build\n'}
+[0.930409] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running build_py\n'}
+[0.930802] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build\n'}
+[0.931625] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib\n'}
+[0.932441] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo\n'}
+[0.932534] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying nav2_gps_waypoint_follower_demo/gps_waypoint_logger.py -> /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo\n'}
+[0.932606] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying nav2_gps_waypoint_follower_demo/interactive_waypoint_follower.py -> /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo\n'}
+[0.932686] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying nav2_gps_waypoint_follower_demo/logged_waypoint_follower.py -> /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo\n'}
+[0.933374] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying nav2_gps_waypoint_follower_demo/__init__.py -> /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo\n'}
+[0.937126] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils\n'}
+[0.938101] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying nav2_gps_waypoint_follower_demo/utils/__init__.py -> /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils\n'}
+[0.938785] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying nav2_gps_waypoint_follower_demo/utils/gps_utils.py -> /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils\n'}
+[0.940227] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running install\n'}
+[0.940681] (nav2_gps_waypoint_follower_demo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.940812] (nav2_gps_waypoint_follower_demo) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.940905] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running install_lib\n'}
+[0.943572] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo\n'}
+[0.944947] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/utils\n'}
+[0.945102] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils/__init__.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/utils\n'}
+[0.945190] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils/gps_utils.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/utils\n'}
+[0.945271] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/gps_waypoint_logger.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo\n'}
+[0.945343] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/interactive_waypoint_follower.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo\n'}
+[0.945413] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/logged_waypoint_follower.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo\n'}
+[0.945860] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying /home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/__init__.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo\n'}
+[0.946036] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'byte-compiling /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/utils/__init__.py to __init__.cpython-310.pyc\n'}
+[0.946121] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'byte-compiling /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/utils/gps_utils.py to gps_utils.cpython-310.pyc\n'}
+[0.946904] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'byte-compiling /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/gps_waypoint_logger.py to gps_waypoint_logger.cpython-310.pyc\n'}
+[0.947956] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'byte-compiling /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/interactive_waypoint_follower.py to interactive_waypoint_follower.cpython-310.pyc\n'}
+[0.948542] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'byte-compiling /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/logged_waypoint_follower.py to logged_waypoint_follower.cpython-310.pyc\n'}
+[0.948664] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'byte-compiling /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo/__init__.py to __init__.cpython-310.pyc\n'}
+[0.948744] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running install_data\n'}
+[0.948817] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/ament_index\n'}
+[0.948887] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index\n'}
+[0.949062] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages\n'}
+[0.949322] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying resource/nav2_gps_waypoint_follower_demo -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages\n'}
+[0.949421] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying package.xml -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo\n'}
+[0.949735] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[0.950440] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/gazebo_gps_world.launch.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[0.950868] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/dual_ekf_navsat.launch.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[0.951137] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/mapviz.launch.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[0.952961] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/gps_waypoint_follower.launch.py -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[0.953670] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[0.953968] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying config/gps_wpf_demo.mvc -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[0.954435] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying config/demo_waypoints.yaml -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[0.954731] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying config/nav2_no_map_params.yaml -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[0.955291] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying config/dual_ekf_navsat_params.yaml -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[0.955639] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/urdf\n'}
+[0.956021] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying urdf/turtlebot3_waffle_gps.urdf -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/urdf\n'}
+[0.956596] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/worlds\n'}
+[0.957297] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying worlds/sonoma_raceway.world -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/worlds\n'}
+[0.958136] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models\n'}
+[0.958626] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps\n'}
+[0.959181] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying models/turtlebot_waffle_gps/model.config -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps\n'}
+[0.959551] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying models/turtlebot_waffle_gps/model.sdf -> /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps\n'}
+[0.959899] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.960256] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Copying ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info to /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2_gps_waypoint_follower_demo-0.0.1-py3.10.egg-info\n'}
+[0.960869] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[0.963603] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Installing gps_waypoint_logger script to /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo\n'}
+[0.964212] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Installing interactive_waypoint_follower script to /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo\n'}
+[0.964990] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Installing logged_waypoint_follower script to /home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo\n'}
+[0.965700] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b"writing list of installed files to '/home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo/install.log'\n"}
+[0.989819] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.991999] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.992788] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.994705] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.994942] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.995714] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.998586] (nav2_gps_waypoint_follower_demo) CommandEnded: {'returncode': 0}
+[1.000834] (-) TimerEvent: {}
+[1.038302] (nav2_gps_waypoint_follower_demo) JobEnded: {'identifier': 'nav2_gps_waypoint_follower_demo', 'rc': 0}
+[1.098575] (sam_bot_description) JobEnded: {'identifier': 'sam_bot_description', 'rc': 0}
+[1.100966] (-) TimerEvent: {}
+[1.106776] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.107609] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.108057] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.136782] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.137197] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.137883] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.186235] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.186690] (nav2_sms_behavior) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.191016] (nav2_straightline_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.201120] (-) TimerEvent: {}
+[1.202842] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.203097] (nav2_sms_behavior) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.203570] (nav2_straightline_planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.262890] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.263319] (nav2_straightline_planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.263468] (nav2_sms_behavior) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.263617] (nav2_sms_behavior) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.263748] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.263895] (nav2_straightline_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301249] (-) TimerEvent: {}
+[1.319041] (nav2_straightline_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.319640] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.320058] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.320278] (nav2_sms_behavior) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.320533] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.321189] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.403276] (-) TimerEvent: {}
+[1.503726] (-) TimerEvent: {}
+[1.510509] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.12 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[1.511301] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.511471] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.603897] (-) TimerEvent: {}
+[1.605655] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.605918] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.657454] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.657717] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.704071] (-) TimerEvent: {}
+[1.804506] (-) TimerEvent: {}
+[1.889730] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found nav2_util: 1.1.12 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.890028] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found nav2_util: 1.1.12 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.904668] (-) TimerEvent: {}
+[2.005098] (-) TimerEvent: {}
+[2.105541] (-) TimerEvent: {}
+[2.205883] (-) TimerEvent: {}
+[2.306373] (-) TimerEvent: {}
+[2.406824] (-) TimerEvent: {}
+[2.409976] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.411007] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.411254] (nav2_sms_behavior) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.422325] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.423765] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.423948] (nav2_straightline_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.427856] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.428055] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.507060] (-) TimerEvent: {}
+[2.577972] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.12 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[2.607250] (-) TimerEvent: {}
+[2.620760] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.12 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[2.707362] (-) TimerEvent: {}
+[2.807742] (-) TimerEvent: {}
+[2.908306] (-) TimerEvent: {}
+[3.008732] (-) TimerEvent: {}
+[3.109356] (-) TimerEvent: {}
+[3.209991] (-) TimerEvent: {}
+[3.310382] (-) TimerEvent: {}
+[3.375956] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found nav2_core: 1.1.12 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[3.392547] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.12 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[3.410491] (-) TimerEvent: {}
+[3.510925] (-) TimerEvent: {}
+[3.611420] (-) TimerEvent: {}
+[3.711849] (-) TimerEvent: {}
+[3.775398] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.812030] (-) TimerEvent: {}
+[3.860100] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[3.862663] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/umarv/ws/src/build/nav2_gradient_costmap_plugin\n'}
+[3.870539] (nav2_gradient_costmap_plugin) CommandEnded: {'returncode': 0}
+[3.871993] (nav2_gradient_costmap_plugin) JobProgress: {'identifier': 'nav2_gradient_costmap_plugin', 'progress': 'build'}
+[3.872402] (nav2_gradient_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin', '--', '-j8', '-l8'], 'cwd': '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.908291] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_gradient_costmap_plugin_core.dir/src/gradient_layer.cpp.o\x1b[0m\n'}
+[3.912151] (-) TimerEvent: {}
+[3.990693] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found nav2_behaviors: 1.1.12 (/opt/ros/humble/share/nav2_behaviors/cmake)\n'}
+[4.012312] (-) TimerEvent: {}
+[4.112709] (-) TimerEvent: {}
+[4.213116] (-) TimerEvent: {}
+[4.313557] (-) TimerEvent: {}
+[4.414081] (-) TimerEvent: {}
+[4.514594] (-) TimerEvent: {}
+[4.615047] (-) TimerEvent: {}
+[4.715431] (-) TimerEvent: {}
+[4.815940] (-) TimerEvent: {}
+[4.916424] (-) TimerEvent: {}
+[5.016796] (-) TimerEvent: {}
+[5.117150] (-) TimerEvent: {}
+[5.217609] (-) TimerEvent: {}
+[5.318105] (-) TimerEvent: {}
+[5.418585] (-) TimerEvent: {}
+[5.519035] (-) TimerEvent: {}
+[5.619568] (-) TimerEvent: {}
+[5.720015] (-) TimerEvent: {}
+[5.820490] (-) TimerEvent: {}
+[5.921061] (-) TimerEvent: {}
+[6.021605] (-) TimerEvent: {}
+[6.121964] (-) TimerEvent: {}
+[6.222482] (-) TimerEvent: {}
+[6.322823] (-) TimerEvent: {}
+[6.423300] (-) TimerEvent: {}
+[6.523679] (-) TimerEvent: {}
+[6.624146] (-) TimerEvent: {}
+[6.724533] (-) TimerEvent: {}
+[6.825002] (-) TimerEvent: {}
+[6.925396] (-) TimerEvent: {}
+[7.025823] (-) TimerEvent: {}
+[7.126311] (-) TimerEvent: {}
+[7.199483] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_gradient_costmap_plugin_core.so\x1b[0m\n'}
+[7.226473] (-) TimerEvent: {}
+[7.326947] (-) TimerEvent: {}
+[7.368701] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'[100%] Built target nav2_gradient_costmap_plugin_core\n'}
+[7.378794] (nav2_gradient_costmap_plugin) CommandEnded: {'returncode': 0}
+[7.398193] (nav2_gradient_costmap_plugin) JobProgress: {'identifier': 'nav2_gradient_costmap_plugin', 'progress': 'install'}
+[7.399305] (nav2_gradient_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin'], 'cwd': '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.405037] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.405400] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so\n'}
+[7.405786] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so" to ""\n'}
+[7.405925] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/gradient_layer.xml\n'}
+[7.406119] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_gradient_costmap_plugin\n'}
+[7.406322] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_gradient_costmap_plugin\n'}
+[7.406563] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.sh\n'}
+[7.406752] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.dsv\n'}
+[7.406909] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.sh\n'}
+[7.407117] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.dsv\n'}
+[7.407240] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.bash\n'}
+[7.407437] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.sh\n'}
+[7.407606] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.zsh\n'}
+[7.407789] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.dsv\n'}
+[7.407911] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv\n'}
+[7.408091] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/packages/nav2_gradient_costmap_plugin\n'}
+[7.408341] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_gradient_costmap_plugin\n'}
+[7.408467] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig.cmake\n'}
+[7.408756] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig-version.cmake\n'}
+[7.408870] (nav2_gradient_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.xml\n'}
+[7.410990] (nav2_gradient_costmap_plugin) CommandEnded: {'returncode': 0}
+[7.427587] (-) TimerEvent: {}
+[7.528160] (-) TimerEvent: {}
+[7.540107] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.540266] (nav2_gradient_costmap_plugin) JobEnded: {'identifier': 'nav2_gradient_costmap_plugin', 'rc': 0}
+[7.616544] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[7.628283] (-) TimerEvent: {}
+[7.728668] (-) TimerEvent: {}
+[7.805593] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.828803] (-) TimerEvent: {}
+[7.858748] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.893663] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.894578] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.894920] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include\n'}
+[7.895100] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.895694] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.895876] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.896877] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.898126] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.898316] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.898540] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.904451] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.928994] (-) TimerEvent: {}
+[7.938022] (nav2_straightline_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[7.940268] (nav2_straightline_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/umarv/ws/src/build/nav2_straightline_planner\n'}
+[7.950580] (nav2_straightline_planner) CommandEnded: {'returncode': 0}
+[7.952701] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'build'}
+[7.952816] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/umarv/ws/src/build/nav2_straightline_planner', '--', '-j8', '-l8'], 'cwd': '/home/umarv/ws/src/build/nav2_straightline_planner', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_straightline_planner'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.993719] (nav2_straightline_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o\x1b[0m\n'}
+[8.029151] (-) TimerEvent: {}
+[8.129505] (-) TimerEvent: {}
+[8.166500] (nav2_sms_behavior) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.229673] (-) TimerEvent: {}
+[8.280314] (nav2_sms_behavior) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.298449] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.302024] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.321450] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.321676] (nav2_sms_behavior) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.321764] (nav2_sms_behavior) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.321811] (nav2_sms_behavior) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.329831] (-) TimerEvent: {}
+[8.344293] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.430010] (-) TimerEvent: {}
+[8.530475] (-) TimerEvent: {}
+[8.630977] (-) TimerEvent: {}
+[8.731437] (-) TimerEvent: {}
+[8.831912] (-) TimerEvent: {}
+[8.932456] (-) TimerEvent: {}
+[9.032885] (-) TimerEvent: {}
+[9.133437] (-) TimerEvent: {}
+[9.233834] (-) TimerEvent: {}
+[9.334324] (-) TimerEvent: {}
+[9.434837] (-) TimerEvent: {}
+[9.535313] (-) TimerEvent: {}
+[9.635871] (-) TimerEvent: {}
+[9.736307] (-) TimerEvent: {}
+[9.836738] (-) TimerEvent: {}
+[9.937197] (-) TimerEvent: {}
+[10.037642] (-) TimerEvent: {}
+[10.138064] (-) TimerEvent: {}
+[10.238592] (-) TimerEvent: {}
+[10.339074] (-) TimerEvent: {}
+[10.439609] (-) TimerEvent: {}
+[10.540051] (-) TimerEvent: {}
+[10.640546] (-) TimerEvent: {}
+[10.741040] (-) TimerEvent: {}
+[10.841603] (-) TimerEvent: {}
+[10.941993] (-) TimerEvent: {}
+[11.042461] (-) TimerEvent: {}
+[11.142908] (-) TimerEvent: {}
+[11.243535] (-) TimerEvent: {}
+[11.343980] (-) TimerEvent: {}
+[11.444544] (-) TimerEvent: {}
+[11.544957] (-) TimerEvent: {}
+[11.645520] (-) TimerEvent: {}
+[11.746110] (-) TimerEvent: {}
+[11.846569] (-) TimerEvent: {}
+[11.946977] (-) TimerEvent: {}
+[12.047503] (-) TimerEvent: {}
+[12.083397] (nav2_straightline_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_straightline_planner_plugin.so\x1b[0m\n'}
+[12.147872] (-) TimerEvent: {}
+[12.233541] (nav2_straightline_planner) StdoutLine: {'line': b'[100%] Built target nav2_straightline_planner_plugin\n'}
+[12.241492] (nav2_straightline_planner) CommandEnded: {'returncode': 0}
+[12.248089] (-) TimerEvent: {}
+[12.261107] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'install'}
+[12.262223] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/umarv/ws/src/build/nav2_straightline_planner'], 'cwd': '/home/umarv/ws/src/build/nav2_straightline_planner', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_straightline_planner'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.267664] (nav2_straightline_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.267845] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml\n'}
+[12.268110] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so\n'}
+[12.268459] (nav2_straightline_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/umarv/ws/src/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so" to ""\n'}
+[12.268581] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/include/\n'}
+[12.268748] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/include//nav2_straightline_planner\n'}
+[12.268923] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/include//nav2_straightline_planner/straight_line_planner.hpp\n'}
+[12.269082] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml\n'}
+[12.269235] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.sh\n'}
+[12.269436] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.dsv\n'}
+[12.269605] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_planner\n'}
+[12.269860] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_planner\n'}
+[12.270068] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.sh\n'}
+[12.270269] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.dsv\n'}
+[12.270458] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.sh\n'}
+[12.270646] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.dsv\n'}
+[12.270798] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.bash\n'}
+[12.270892] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.sh\n'}
+[12.270974] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.zsh\n'}
+[12.271142] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.dsv\n'}
+[12.271322] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv\n'}
+[12.271500] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/ament_index/resource_index/packages/nav2_straightline_planner\n'}
+[12.271706] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_straightline_planner\n'}
+[12.271785] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.271856] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.271923] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.271991] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig.cmake\n'}
+[12.272064] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig-version.cmake\n'}
+[12.272131] (nav2_straightline_planner) StdoutLine: {'line': b'-- Installing: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/package.xml\n'}
+[12.273468] (nav2_straightline_planner) CommandEnded: {'returncode': 0}
+[12.348543] (-) TimerEvent: {}
+[12.391985] (nav2_straightline_planner) JobEnded: {'identifier': 'nav2_straightline_planner', 'rc': 0}
+[12.448757] (-) TimerEvent: {}
+[12.549175] (-) TimerEvent: {}
+[12.649622] (-) TimerEvent: {}
+[12.750071] (-) TimerEvent: {}
+[12.850516] (-) TimerEvent: {}
+[12.950922] (-) TimerEvent: {}
+[13.051363] (-) TimerEvent: {}
+[13.151761] (-) TimerEvent: {}
+[13.252184] (-) TimerEvent: {}
+[13.352594] (-) TimerEvent: {}
+[13.453128] (-) TimerEvent: {}
+[13.553550] (-) TimerEvent: {}
+[13.653987] (-) TimerEvent: {}
+[13.754428] (-) TimerEvent: {}
+[13.854935] (-) TimerEvent: {}
+[13.955443] (-) TimerEvent: {}
+[14.055823] (-) TimerEvent: {}
+[14.156378] (-) TimerEvent: {}
+[14.256848] (-) TimerEvent: {}
+[14.357295] (-) TimerEvent: {}
+[14.457739] (-) TimerEvent: {}
+[14.558238] (-) TimerEvent: {}
+[14.658607] (-) TimerEvent: {}
+[14.758984] (-) TimerEvent: {}
+[14.859483] (-) TimerEvent: {}
+[14.959907] (-) TimerEvent: {}
+[15.060416] (-) TimerEvent: {}
+[15.160947] (-) TimerEvent: {}
+[15.261403] (-) TimerEvent: {}
+[15.361853] (-) TimerEvent: {}
+[15.462369] (-) TimerEvent: {}
+[15.562810] (-) TimerEvent: {}
+[15.663357] (-) TimerEvent: {}
+[15.763722] (-) TimerEvent: {}
+[15.864067] (-) TimerEvent: {}
+[15.964582] (-) TimerEvent: {}
+[16.064989] (-) TimerEvent: {}
+[16.165443] (-) TimerEvent: {}
+[16.265877] (-) TimerEvent: {}
+[16.366357] (-) TimerEvent: {}
+[16.466954] (-) TimerEvent: {}
+[16.567298] (-) TimerEvent: {}
+[16.667733] (-) TimerEvent: {}
+[16.768217] (-) TimerEvent: {}
+[16.868699] (-) TimerEvent: {}
+[16.969126] (-) TimerEvent: {}
+[17.069601] (-) TimerEvent: {}
+[17.170150] (-) TimerEvent: {}
+[17.270612] (-) TimerEvent: {}
+[17.371075] (-) TimerEvent: {}
+[17.471446] (-) TimerEvent: {}
+[17.571893] (-) TimerEvent: {}
+[17.672323] (-) TimerEvent: {}
+[17.772677] (-) TimerEvent: {}
+[17.873036] (-) TimerEvent: {}
+[17.973469] (-) TimerEvent: {}
+[18.031748] (nav2_sms_behavior) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[18.060214] (nav2_sms_behavior) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[18.061078] (nav2_sms_behavior) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.061990] (nav2_sms_behavior) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior/include\n'}
+[18.062210] (nav2_sms_behavior) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.062520] (nav2_sms_behavior) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[18.062612] (nav2_sms_behavior) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[18.063108] (nav2_sms_behavior) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.063816] (nav2_sms_behavior) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.063885] (nav2_sms_behavior) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.064144] (nav2_sms_behavior) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.065924] (nav2_sms_behavior) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.073593] (-) TimerEvent: {}
+[18.129335] (nav2_sms_behavior) StdoutLine: {'line': b'-- Generating done\n'}
+[18.132272] (nav2_sms_behavior) StdoutLine: {'line': b'-- Build files have been written to: /home/umarv/ws/src/build/nav2_sms_behavior\n'}
+[18.143135] (nav2_sms_behavior) CommandEnded: {'returncode': 0}
+[18.145073] (nav2_sms_behavior) JobProgress: {'identifier': 'nav2_sms_behavior', 'progress': 'build'}
+[18.145173] (nav2_sms_behavior) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/umarv/ws/src/build/nav2_sms_behavior', '--', '-j8', '-l8'], 'cwd': '/home/umarv/ws/src/build/nav2_sms_behavior', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_sms_behavior'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.173975] (-) TimerEvent: {}
+[18.176033] (nav2_sms_behavior) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[18.183313] (nav2_sms_behavior) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[18.191015] (nav2_sms_behavior) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_nav2_sms_behavior\n'}
+[18.274373] (-) TimerEvent: {}
+[18.374755] (-) TimerEvent: {}
+[18.412584] (nav2_sms_behavior) StdoutLine: {'line': b'running egg_info\n'}
+[18.413188] (nav2_sms_behavior) StdoutLine: {'line': b'creating nav2_sms_behavior.egg-info\n'}
+[18.413373] (nav2_sms_behavior) StdoutLine: {'line': b'writing nav2_sms_behavior.egg-info/PKG-INFO\n'}
+[18.413566] (nav2_sms_behavior) StdoutLine: {'line': b'writing dependency_links to nav2_sms_behavior.egg-info/dependency_links.txt\n'}
+[18.413690] (nav2_sms_behavior) StdoutLine: {'line': b'writing top-level names to nav2_sms_behavior.egg-info/top_level.txt\n'}
+[18.413879] (nav2_sms_behavior) StdoutLine: {'line': b"writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'\n"}
+[18.415354] (nav2_sms_behavior) StdoutLine: {'line': b"reading manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'\n"}
+[18.415697] (nav2_sms_behavior) StdoutLine: {'line': b"writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'\n"}
+[18.440710] (nav2_sms_behavior) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_nav2_sms_behavior_egg\n'}
+[18.474906] (-) TimerEvent: {}
+[18.575318] (-) TimerEvent: {}
+[18.657999] (nav2_sms_behavior) StdoutLine: {'line': b'[  5%] Built target nav2_sms_behavior__cpp\n'}
+[18.666048] (nav2_sms_behavior) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.666324] (nav2_sms_behavior) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_generator_c.dir/rosidl_generator_c/nav2_sms_behavior/action/detail/send_sms__functions.c.o\x1b[0m\n'}
+[18.666594] (nav2_sms_behavior) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.666776] (nav2_sms_behavior) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.675476] (-) TimerEvent: {}
+[18.775809] (-) TimerEvent: {}
+[18.782090] (nav2_sms_behavior) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libnav2_sms_behavior__rosidl_generator_c.so\x1b[0m\n'}
+[18.809459] (nav2_sms_behavior) StdoutLine: {'line': b'[ 20%] Built target nav2_sms_behavior__rosidl_generator_c\n'}
+[18.819018] (nav2_sms_behavior) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.819355] (nav2_sms_behavior) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.819523] (nav2_sms_behavior) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.876248] (-) TimerEvent: {}
+[18.977559] (-) TimerEvent: {}
+[19.017008] (nav2_sms_behavior) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_sms_behavior/action/send_sms__type_support.cpp.o\x1b[0m\n'}
+[19.077695] (-) TimerEvent: {}
+[19.101595] (nav2_sms_behavior) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_sms_behavior/action/detail/send_sms__type_support.cpp.o\x1b[0m\n'}
+[19.171620] (nav2_sms_behavior) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_sms_behavior/action/detail/dds_fastrtps/send_sms__type_support.cpp.o\x1b[0m\n'}
+[19.177850] (-) TimerEvent: {}
+[19.202134] (nav2_sms_behavior) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_sms_behavior/action/send_sms__type_support.cpp.o\x1b[0m\n'}
+[19.248985] (nav2_sms_behavior) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.277983] (-) TimerEvent: {}
+[19.283975] (nav2_sms_behavior) StdoutLine: {'line': b'[ 44%] Built target nav2_sms_behavior__rosidl_typesupport_c\n'}
+[19.319089] (nav2_sms_behavior) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_sms_behavior/action/detail/send_sms__type_support.c.o\x1b[0m\n'}
+[19.328834] (nav2_sms_behavior) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_sms_behavior/action/detail/send_sms__type_support_c.cpp.o\x1b[0m\n'}
+[19.368755] (nav2_sms_behavior) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libnav2_sms_behavior__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[19.378179] (-) TimerEvent: {}
+[19.402004] (nav2_sms_behavior) StdoutLine: {'line': b'[ 52%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c\n'}
+[19.459849] (nav2_sms_behavior) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.478357] (-) TimerEvent: {}
+[19.495898] (nav2_sms_behavior) StdoutLine: {'line': b'[ 55%] Built target nav2_sms_behavior__rosidl_typesupport_cpp\n'}
+[19.513712] (nav2_sms_behavior) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/nav2_sms_behavior_plugin.dir/src/send_sms.cpp.o\x1b[0m\n'}
+[19.514325] (nav2_sms_behavior) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/nav2_sms_behavior_plugin.dir/src/twilio.cpp.o\x1b[0m\n'}
+[19.578508] (-) TimerEvent: {}
+[19.657997] (nav2_sms_behavior) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.668158] (nav2_sms_behavior) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.678660] (-) TimerEvent: {}
+[19.736003] (nav2_sms_behavior) StdoutLine: {'line': b'[ 67%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_cpp\n'}
+[19.752028] (nav2_sms_behavior) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.769766] (nav2_sms_behavior) StdoutLine: {'line': b'[ 70%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c\n'}
+[19.778840] (-) TimerEvent: {}
+[19.834199] (nav2_sms_behavior) StdoutLine: {'line': b'[ 70%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_cpp\n'}
+[19.852449] (nav2_sms_behavior) StdoutLine: {'line': b'[ 70%] Built target nav2_sms_behavior\n'}
+[19.874816] (nav2_sms_behavior) StdoutLine: {'line': b'[ 73%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.878969] (-) TimerEvent: {}
+[19.979503] (-) TimerEvent: {}
+[20.079856] (-) TimerEvent: {}
+[20.180182] (-) TimerEvent: {}
+[20.280646] (-) TimerEvent: {}
+[20.381039] (-) TimerEvent: {}
+[20.481449] (-) TimerEvent: {}
+[20.581809] (-) TimerEvent: {}
+[20.651734] (nav2_sms_behavior) StdoutLine: {'line': b'[ 73%] Built target nav2_sms_behavior__py\n'}
+[20.669595] (nav2_sms_behavior) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_generator_py.dir/rosidl_generator_py/nav2_sms_behavior/action/_send_sms_s.c.o\x1b[0m\n'}
+[20.681983] (-) TimerEvent: {}
+[20.782397] (-) TimerEvent: {}
+[20.790600] (nav2_sms_behavior) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/libnav2_sms_behavior__rosidl_generator_py.so\x1b[0m\n'}
+[20.820492] (nav2_sms_behavior) StdoutLine: {'line': b'[ 79%] Built target nav2_sms_behavior__rosidl_generator_py\n'}
+[20.839081] (nav2_sms_behavior) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[20.839430] (nav2_sms_behavior) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.839580] (nav2_sms_behavior) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.882571] (-) TimerEvent: {}
+[20.949519] (nav2_sms_behavior) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.957994] (nav2_sms_behavior) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.962755] (nav2_sms_behavior) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.982721] (-) TimerEvent: {}
+[20.983088] (nav2_sms_behavior) StdoutLine: {'line': b'[ 97%] Built target nav2_sms_behavior__rosidl_typesupport_c__pyext\n'}
+[20.990540] (nav2_sms_behavior) StdoutLine: {'line': b'[ 97%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c__pyext\n'}
+[20.994017] (nav2_sms_behavior) StdoutLine: {'line': b'[ 97%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c__pyext\n'}
+[21.082921] (-) TimerEvent: {}
+[21.183279] (-) TimerEvent: {}
+[21.283873] (-) TimerEvent: {}
+[21.384450] (-) TimerEvent: {}
+[21.484882] (-) TimerEvent: {}
+[21.585424] (-) TimerEvent: {}
+[21.685888] (-) TimerEvent: {}
+[21.786264] (-) TimerEvent: {}
+[21.886645] (-) TimerEvent: {}
+[21.987160] (-) TimerEvent: {}
+[22.087544] (-) TimerEvent: {}
+[22.188005] (-) TimerEvent: {}
+[22.288468] (-) TimerEvent: {}
+[22.388855] (-) TimerEvent: {}
+[22.489261] (-) TimerEvent: {}
+[22.589729] (-) TimerEvent: {}
+[22.690211] (-) TimerEvent: {}
+[22.790611] (-) TimerEvent: {}
+[22.891028] (-) TimerEvent: {}
+[22.991546] (-) TimerEvent: {}
+[23.092047] (-) TimerEvent: {}
+[23.192504] (-) TimerEvent: {}
+[23.293041] (-) TimerEvent: {}
+[23.393447] (-) TimerEvent: {}
+[23.493872] (-) TimerEvent: {}
+[23.594229] (-) TimerEvent: {}
+[23.694723] (-) TimerEvent: {}
+[23.795067] (-) TimerEvent: {}
+[23.895579] (-) TimerEvent: {}
+[23.995937] (-) TimerEvent: {}
+[24.096387] (-) TimerEvent: {}
+[24.196785] (-) TimerEvent: {}
+[24.297167] (-) TimerEvent: {}
+[24.397550] (-) TimerEvent: {}
+[24.497920] (-) TimerEvent: {}
+[24.598336] (-) TimerEvent: {}
+[24.698700] (-) TimerEvent: {}
+[24.799067] (-) TimerEvent: {}
+[24.899494] (-) TimerEvent: {}
+[24.966842] (nav2_sms_behavior) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_sms_behavior_plugin.so\x1b[0m\n'}
+[24.999647] (-) TimerEvent: {}
+[25.100019] (-) TimerEvent: {}
+[25.200517] (-) TimerEvent: {}
+[25.300991] (-) TimerEvent: {}
+[25.323314] (nav2_sms_behavior) StdoutLine: {'line': b'[100%] Built target nav2_sms_behavior_plugin\n'}
+[25.331656] (nav2_sms_behavior) CommandEnded: {'returncode': 0}
+[25.385166] (nav2_sms_behavior) JobProgress: {'identifier': 'nav2_sms_behavior', 'progress': 'install'}
+[25.386203] (nav2_sms_behavior) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/umarv/ws/src/build/nav2_sms_behavior'], 'cwd': '/home/umarv/ws/src/build/nav2_sms_behavior', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/umarv/ws/src/build/nav2_sms_behavior'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[25.392763] (nav2_sms_behavior) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.393019] (nav2_sms_behavior) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:46 (file):\n'}
+[25.393191] (nav2_sms_behavior) StderrLine: {'line': b'  file cannot create directory:\n'}
+[25.393309] (nav2_sms_behavior) StderrLine: {'line': b'  /home/umarv/ws/src/install/nav2_sms_behavior/share/ament_index/resource_index/rosidl_interfaces.\n'}
+[25.393400] (nav2_sms_behavior) StderrLine: {'line': b'  Maybe need administrative privileges.\n'}
+[25.393490] (nav2_sms_behavior) StderrLine: {'line': b'\n'}
+[25.393738] (nav2_sms_behavior) StderrLine: {'line': b'\x1b[0m\n'}
+[25.394790] (nav2_sms_behavior) CommandEnded: {'returncode': 1}
+[25.401124] (-) TimerEvent: {}
+[25.484761] (nav2_sms_behavior) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 84, in build\n    create_environment_scripts(\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts\n    create_file_with_runtime_dependencies(prefix_path, pkg))\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies\n    path.write_text(\n  File "/usr/lib/python3.10/pathlib.py", line 1154, in write_text\n    with self.open(mode=\'w\', encoding=encoding, errors=errors, newline=newline) as f:\n  File "/usr/lib/python3.10/pathlib.py", line 1119, in open\n    return self._accessor.open(self, mode, buffering, encoding, errors,\nPermissionError: [Errno 13] Permission denied: \'/home/umarv/ws/src/install/nav2_sms_behavior/share/colcon-core/packages/nav2_sms_behavior\'\n'}
+[25.484965] (nav2_sms_behavior) JobEnded: {'identifier': 'nav2_sms_behavior', 'rc': 1}
+[25.495355] (-) EventReactorShutdown: {}

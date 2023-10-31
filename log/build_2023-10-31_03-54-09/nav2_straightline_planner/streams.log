@@ -1,0 +1,278 @@
+[0.360s] Invoking command in '/home/umarv/ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/umarv/ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/umarv/ws/build/nav2_straightline_planner -- -j8 -l8
+[0.631s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[3.391s] In file included from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[3.392s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:86:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_2d[m[K’ does not name a type
+[3.392s]    86 | void generate_path(const [01;31m[Kcostmap_2d[m[K::Costmap2D* map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan);
+[3.392s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[3.392s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:86:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K*[m[K’ token
+[3.392s]    86 | void generate_path(const costmap_2d::Costmap2D[01;31m[K*[m[K map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan);
+[3.392s]       |                                               [01;31m[K^[m[K
+[3.392s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:86:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+[3.392s]    86 | void generate_path[34m[K([m[Kconst costmap_2d::Costmap2D[01;31m[K*[m[K map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan);
+[3.393s]       |                   [34m[K~[m[K                           [01;31m[K^[m[K
+[3.393s]       |                                               [32m[K)[m[K
+[3.393s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:86:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.393s]    86 | void generate_path(const costmap_2d::[01;31m[KCostmap2D[m[K* map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan);
+[3.393s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[3.393s]       |                                               [32m[K;[m[K
+[3.393s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:86:49:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kmap[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[3.393s]    86 | void generate_path(const costmap_2d::Costmap2D* [01;31m[Kmap[m[K, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan);
+[3.393s]       |                                                 [01;31m[K^~~[m[K
+[3.393s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:86:86:[m[K [01;31m[Kerror: [m[Kinvalid declarator before ‘[01m[K&[m[K’ token
+[3.393s]    86 | void generate_path(const costmap_2d::Costmap2D* map, std::vector<std::pair<int,int>> [01;31m[K&[m[Kpath, std::vector<geometry_msgs::PoseStamped>& plan);
+[3.393s]       |                                                                                      [01;31m[K^[m[K
+[3.394s] In file included from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[3.394s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:87:36:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[3.394s]    87 | bool makePlan(const geometry_msgs::[01;31m[KPoseStamped[m[K& start,
+[3.394s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[3.394s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:88:34:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[3.394s]    88 |             const geometry_msgs::[01;31m[KPoseStamped[m[K& goal,
+[3.394s]       |                                  [01;31m[K^~~~~~~~~~~[m[K
+[3.394s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:89:40:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’?
+[3.394s]    89 |             std::vector<geometry_msgs::[01;31m[KPoseStamped[m[K>& plan
+[3.394s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[3.394s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[3.394s]                  from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:49[m[K,
+[3.394s]                  from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[3.394s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:135:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ declared here
+[3.395s]   135 | using [01;36m[KPoseStamped[m[K =
+[3.395s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[3.395s] In file included from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[3.395s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:89:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.395s]    89 |             std::vector<geometry_msgs::PoseStamped[01;31m[K>[m[K& plan
+[3.395s]       |                                                   [01;31m[K^[m[K
+[3.395s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:89:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.400s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_straightline_planner::StraightLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[3.400s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:115:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst PoseStamped[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst int&[m[K’
+[3.400s]   115 |   makePlan([01;31m[Kstart[m[K, goal, plan);
+[3.401s]       |            [01;31m[K^~~~~[m[K
+[3.401s]       |            [01;31m[K|[m[K
+[3.401s]       |            [01;31m[Kconst PoseStamped {aka const geometry_msgs::msg::PoseStamped_<std::allocator<void> >}[m[K
+[3.401s] In file included from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[3.401s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:87:49:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool nav2_straightline_planner::StraightLine::makePlan(const int&, const int&, int&)[m[K’
+[3.401s]    87 | bool makePlan([01;36m[Kconst geometry_msgs::PoseStamped& start[m[K,
+[3.401s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.405s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:118:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope
+[3.406s]   118 |     global_path.poses.push_back([01;31m[Kpose[m[K);
+[3.406s]       |                                 [01;31m[K^~~~[m[K
+[3.406s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K At global scope:
+[3.406s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:123:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kstraight_line_planner[m[K’ has not been declared
+[3.406s]   123 | bool [01;31m[Kstraight_line_planner[m[K::makePlan(const geometry_msgs::msg::PoseStamped& start, const geometry_msgs::msg::PoseStamped& goal, std::vector<geometry_msgs::msg::PoseStamped>& plan){
+[3.406s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.409s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K In function ‘[01m[Kbool nav2_straightline_planner::makePlan(const PoseStamped&, const PoseStamped&, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&)[m[K’:
+[3.409s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:124:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialized_[m[K’ was not declared in this scope
+[3.409s]   124 |  if(![01;31m[Kinitialized_[m[K){
+[3.409s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[3.412s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:125:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+[3.412s]   125 |         [01;31m[KROS_ERROR[m[K("The planner has not been initialized, please call initialize() to use the planner");
+[3.412s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.415s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:129:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_DEBUG[m[K’ was not declared in this scope
+[3.415s]   129 |     [01;31m[KROS_DEBUG[m[K("Got a start: %.2f, %.2f, and a goal: %.2f, %.2f", start.pose.position.x, start.pose.position.y, goal.pose.position.x, goal.pose.position.y);
+[3.415s]       |     [01;31m[K^~~~~~~~~[m[K
+[3.418s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K At global scope:
+[3.418s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:134:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart[m[K’ was not declared in this scope
+[3.418s]   134 |     int pos_x = (int)(([01;31m[Kstart[m[K.pose.position.x - costmap_->getOriginX()) / costmap_->getResolution());
+[3.418s]       |                        [01;31m[K^~~~~[m[K
+[3.421s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:134:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[3.422s]   134 |     int pos_x = (int)((start.pose.position.x - [01;31m[Kcostmap_[m[K->getOriginX()) / costmap_->getResolution());
+[3.422s]       |                                                [01;31m[K^~~~~~~~[m[K
+[3.425s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:134:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[3.425s]   134 |     int pos_x = (int)((start.pose.position.x - costmap_->getOriginX()) / [01;31m[Kcostmap_[m[K->getResolution());
+[3.425s]       |                                                                          [01;31m[K^~~~~~~~[m[K
+[3.427s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:135:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart[m[K’ was not declared in this scope
+[3.427s]   135 |     int pos_y = (int)(([01;31m[Kstart[m[K.pose.position.y - costmap_->getOriginY()) / costmap_->getResolution());
+[3.427s]       |                        [01;31m[K^~~~~[m[K
+[3.430s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:135:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[3.430s]   135 |     int pos_y = (int)((start.pose.position.y - [01;31m[Kcostmap_[m[K->getOriginY()) / costmap_->getResolution());
+[3.430s]       |                                                [01;31m[K^~~~~~~~[m[K
+[3.432s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:135:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[3.432s]   135 |     int pos_y = (int)((start.pose.position.y - costmap_->getOriginY()) / [01;31m[Kcostmap_[m[K->getResolution());
+[3.433s]       |                                                                          [01;31m[K^~~~~~~~[m[K
+[3.435s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:137:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_x[m[K’?
+[3.435s]   137 |     int goal_x = (int)(([01;31m[Kgoal[m[K.pose.position.x - costmap_->getOriginX()) / costmap_->getResolution());
+[3.435s]       |                         [01;31m[K^~~~[m[K
+[3.435s]       |                         [32m[Kgoal_x[m[K
+[3.438s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:137:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[3.438s]   137 |     int goal_x = (int)((goal.pose.position.x - [01;31m[Kcostmap_[m[K->getOriginX()) / costmap_->getResolution());
+[3.438s]       |                                                [01;31m[K^~~~~~~~[m[K
+[3.442s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:137:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[3.442s]   137 |     int goal_x = (int)((goal.pose.position.x - costmap_->getOriginX()) / [01;31m[Kcostmap_[m[K->getResolution());
+[3.442s]       |                                                                          [01;31m[K^~~~~~~~[m[K
+[3.444s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:138:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_y[m[K’?
+[3.444s]   138 |     int goal_y = (int)(([01;31m[Kgoal[m[K.pose.position.y - costmap_->getOriginY()) / costmap_->getResolution());
+[3.444s]       |                         [01;31m[K^~~~[m[K
+[3.444s]       |                         [32m[Kgoal_y[m[K
+[3.447s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:138:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[3.447s]   138 |     int goal_y = (int)((goal.pose.position.y - [01;31m[Kcostmap_[m[K->getOriginY()) / costmap_->getResolution());
+[3.447s]       |                                                [01;31m[K^~~~~~~~[m[K
+[3.450s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:138:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[3.450s]   138 |     int goal_y = (int)((goal.pose.position.y - costmap_->getOriginY()) / [01;31m[Kcostmap_[m[K->getResolution());
+[3.450s]       |                                                                          [01;31m[K^~~~~~~~[m[K
+[3.450s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:147:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[3.450s]   147 |     std::[01;31m[Kcout[m[K << pos_x << " " << pos_y << std::endl;
+[3.450s]       |          [01;31m[K^~~~[m[K
+[3.450s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.450s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.450s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.451s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[3.451s]                  from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:44[m[K:
+[3.451s] [01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[3.451s]    61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+[3.451s]       |                  [01;36m[K^~~~[m[K
+[3.451s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:148:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[3.451s]   148 |     std::[01;31m[Kcout[m[K << goal_x << " " << goal_y << std::endl;
+[3.451s]       |          [01;31m[K^~~~[m[K
+[3.451s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[3.452s]                  from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:44[m[K:
+[3.452s] [01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[3.452s]    61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+[3.452s]       |                  [01;36m[K^~~~[m[K
+[3.452s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:149:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[3.452s]   149 |     std::[01;31m[Kcout[m[K << "Running A*..." << std::endl << std::endl;
+[3.452s]       |          [01;31m[K^~~~[m[K
+[3.452s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[3.452s]                  from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:44[m[K:
+[3.452s] [01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[3.453s]    61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+[3.453s]       |                  [01;36m[K^~~~[m[K
+[3.454s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:153:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krpastar[m[K’ does not name a type
+[3.454s]   153 |     [01;31m[Krpastar[m[K runner(first, last, costmap_);
+[3.454s]       |     [01;31m[K^~~~~~~[m[K
+[3.455s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krunner[m[K’ does not name a type
+[3.455s]   154 |     [01;31m[Krunner[m[K.search();
+[3.455s]       |     [01;31m[K^~~~~~[m[K
+[3.455s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:155:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[3.455s]   155 |     [01;31m[Kif[m[K (runner.goal_found())
+[3.455s]       |     [01;31m[K^~[m[K
+[3.455s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:161:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[3.455s]   161 |     std::[01;31m[Kcout[m[K << "done with make plan\n";
+[3.455s]       |          [01;31m[K^~~~[m[K
+[3.455s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.455s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[3.456s]                  from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:44[m[K:
+[3.456s] [01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[3.456s]    61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+[3.456s]       |                  [01;36m[K^~~~[m[K
+[3.456s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:163:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[3.456s]   163 |     [01;31m[Kreturn[m[K true;
+[3.456s]       |     [01;31m[K^~~~~~[m[K
+[3.456s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:166:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kstraight_line_planer[m[K’ has not been declared
+[3.456s]   166 | void [01;31m[Kstraight_line_planer[m[K::generate_path(const costmap_2d::Costmap2D* map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan)
+[3.456s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.457s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:166:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_2d[m[K’ does not name a type
+[3.457s]   166 | void straight_line_planer::generate_path(const [01;31m[Kcostmap_2d[m[K::Costmap2D* map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan)
+[3.457s]       |                                                [01;31m[K^~~~~~~~~~[m[K
+[3.457s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:166:69:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K*[m[K’ token
+[3.457s]   166 | void straight_line_planer::generate_path(const costmap_2d::Costmap2D[01;31m[K*[m[K map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan)
+[3.457s]       |                                                                     [01;31m[K^[m[K
+[3.457s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:166:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+[3.457s]   166 | void straight_line_planer::generate_path[34m[K([m[Kconst costmap_2d::Costmap2D[01;31m[K*[m[K map, std::vector<std::pair<int,int>> &path, std::vector<geometry_msgs::PoseStamped>& plan)
+[3.457s]       |                                         [34m[K~[m[K                           [01;31m[K^[m[K
+[3.457s]       |                                                                     [32m[K)[m[K
+[3.457s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:166:69:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K*[m[K’ token
+[3.458s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:187:21:[m[K [01;31m[Kerror: [m[K‘[01m[KStraightLine[m[K’ has not been declared
+[3.458s]   187 | nav_msgs::msg::Path [01;31m[KStraightLine[m[K::createPlan(
+[3.458s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[3.460s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K In function ‘[01m[Knav_msgs::msg::Path createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[3.460s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:194:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_frame_[m[K’ was not declared in this scope; did you mean ‘[01m[Kglobal_path[m[K’?
+[3.460s]   194 |   if (start.header.frame_id != [01;31m[Kglobal_frame_[m[K) {
+[3.460s]       |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[3.460s]       |                                [32m[Kglobal_path[m[K
+[3.463s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[3.464s]                  from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:44[m[K:
+[3.464s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:196:7:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[3.464s]   196 |       [01;31m[Knode_[m[K->get_logger(), "Planner will only except start position from %s frame",
+[3.464s]       |       [01;31m[K^~~~~[m[K
+[3.464s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:195:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.464s]   195 |     [01;31m[KRCLCPP_ERROR[m[K(
+[3.465s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.465s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:195:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K-fpermissive[m[K]
+[3.465s]   195 |     [01;31m[KRCLCPP_ERROR[m[K(
+[3.465s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.465s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:195:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.465s]   195 |     [01;31m[KRCLCPP_ERROR[m[K(
+[3.465s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.465s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:195:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K-fpermissive[m[K]
+[3.465s]   195 |     [01;31m[KRCLCPP_ERROR[m[K(
+[3.465s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.465s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:195:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.465s]   195 |     [01;31m[KRCLCPP_ERROR[m[K(
+[3.465s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.467s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:201:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_frame_[m[K’ was not declared in this scope; did you mean ‘[01m[Kglobal_path[m[K’?
+[3.467s]   201 |   if (goal.header.frame_id != [01;31m[Kglobal_frame_[m[K) {
+[3.467s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[3.467s]       |                               [32m[Kglobal_path[m[K
+[3.470s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[3.471s]                  from [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:44[m[K:
+[3.471s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:203:7:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[3.471s]   203 |       [01;31m[Knode_[m[K->get_logger(), "Planner will only except goal position from %s frame",
+[3.471s]       |       [01;31m[K^~~~~[m[K
+[3.471s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:202:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.471s]   202 |     [01;31m[KRCLCPP_INFO[m[K(
+[3.471s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.471s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:202:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K-fpermissive[m[K]
+[3.471s]   202 |     [01;31m[KRCLCPP_INFO[m[K(
+[3.471s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.471s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:202:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.471s]   202 |     [01;31m[KRCLCPP_INFO[m[K(
+[3.471s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.472s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:202:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K-fpermissive[m[K]
+[3.472s]   202 |     [01;31m[KRCLCPP_INFO[m[K(
+[3.472s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.472s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:202:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.472s]   202 |     [01;31m[KRCLCPP_INFO[m[K(
+[3.472s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.472s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:209:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[3.472s]   209 |   global_path.header.stamp = [01;31m[Knode_[m[K->now();
+[3.473s]       |                              [01;31m[K^~~~~[m[K
+[3.473s]       |                              [32m[Kmode_t[m[K
+[3.476s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:210:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_frame_[m[K’ was not declared in this scope; did you mean ‘[01m[Kglobal_path[m[K’?
+[3.476s]   210 |   global_path.header.frame_id = [01;31m[Kglobal_frame_[m[K;
+[3.476s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[3.476s]       |                                 [32m[Kglobal_path[m[K
+[3.482s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:215:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterpolation_resolution_[m[K’ was not declared in this scope
+[3.482s]   215 |     [01;31m[Kinterpolation_resolution_[m[K;
+[3.482s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.483s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K At global scope:
+[3.483s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:241:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.483s]   241 | [01;31m[K}[m[K  // namespace nav2_straightline_planner
+[3.483s]       | [01;31m[K^[m[K
+[4.722s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K In function ‘[01m[Kbool nav2_straightline_planner::makePlan(const PoseStamped&, const PoseStamped&, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&)[m[K’:
+[4.722s] [01m[K/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:133:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[4.723s]   133 |     [01;35m[K}[m[K
+[4.723s]       |     [01;35m[K^[m[K
+[4.750s] gmake[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:76: CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] Error 1
+[4.751s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_straightline_planner_plugin.dir/all] Error 2
+[4.751s] gmake: *** [Makefile:146: all] Error 2

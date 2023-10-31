@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (-) JobUnselected: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.000566] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.000662] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.000725] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.000766] (nav2_straightline_planner) JobQueued: {'identifier': 'nav2_straightline_planner', 'dependencies': OrderedDict()}
+[0.000815] (nav2_straightline_planner) JobStarted: {'identifier': 'nav2_straightline_planner'}
+[0.034048] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'cmake'}
+[0.034552] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_straightline_planner'], 'cwd': '/home/umarv/ws/src/build/nav2_straightline_planner', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws/src/navigation2_tutorials'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/umarv/ws/src/build/nav2_straightline_planner'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061936] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099359] (-) TimerEvent: {}
+[0.195856] (nav2_straightline_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.199522] (-) TimerEvent: {}
+[0.229014] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299668] (-) TimerEvent: {}
+[0.310514] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.315311] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.327782] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.346784] (nav2_straightline_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.366803] (nav2_straightline_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399868] (-) TimerEvent: {}
+[0.440814] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.444448] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500031] (-) TimerEvent: {}
+[0.592147] (nav2_straightline_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600222] (-) TimerEvent: {}
+[0.700601] (-) TimerEvent: {}
+[0.770730] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.800814] (-) TimerEvent: {}
+[0.875499] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.901065] (-) TimerEvent: {}
+[0.926766] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.001205] (-) TimerEvent: {}
+[1.101615] (-) TimerEvent: {}
+[1.158567] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found nav2_util: 1.1.12 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.201822] (-) TimerEvent: {}
+[1.302216] (-) TimerEvent: {}
+[1.402739] (-) TimerEvent: {}
+[1.503262] (-) TimerEvent: {}
+[1.603652] (-) TimerEvent: {}
+[1.633805] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.636787] (nav2_straightline_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.703800] (-) TimerEvent: {}
+[1.793721] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.12 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[1.804070] (-) TimerEvent: {}
+[1.904449] (-) TimerEvent: {}
+[2.004831] (-) TimerEvent: {}
+[2.105328] (-) TimerEvent: {}
+[2.205865] (-) TimerEvent: {}
+[2.306218] (-) TimerEvent: {}
+[2.406674] (-) TimerEvent: {}
+[2.475076] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.12 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[2.506874] (-) TimerEvent: {}
+[2.607295] (-) TimerEvent: {}
+[2.707743] (-) TimerEvent: {}
+[2.808304] (-) TimerEvent: {}
+[2.908821] (-) TimerEvent: {}
+[3.009182] (-) TimerEvent: {}
+[3.109608] (-) TimerEvent: {}
+[3.210005] (-) TimerEvent: {}
+[3.310450] (-) TimerEvent: {}
+[3.410896] (-) TimerEvent: {}
+[3.511332] (-) TimerEvent: {}
+[3.611821] (-) TimerEvent: {}
+[3.712179] (-) TimerEvent: {}
+[3.812519] (-) TimerEvent: {}
+[3.912912] (-) TimerEvent: {}
+[4.013299] (-) TimerEvent: {}
+[4.113791] (-) TimerEvent: {}
+[4.214322] (-) TimerEvent: {}
+[4.314889] (-) TimerEvent: {}
+[4.415381] (-) TimerEvent: {}
+[4.515809] (-) TimerEvent: {}
+[4.616291] (-) TimerEvent: {}
+[4.716672] (-) TimerEvent: {}
+[4.817188] (-) TimerEvent: {}
+[4.917629] (-) TimerEvent: {}
+[5.018107] (-) TimerEvent: {}
+[5.118504] (-) TimerEvent: {}
+[5.218929] (-) TimerEvent: {}
+[5.319294] (-) TimerEvent: {}
+[5.419731] (-) TimerEvent: {}
+[5.520155] (-) TimerEvent: {}
+[5.620729] (-) TimerEvent: {}
+[5.721133] (-) TimerEvent: {}
+[5.821543] (-) TimerEvent: {}
+[5.922278] (-) TimerEvent: {}
+[6.022707] (-) TimerEvent: {}
+[6.040207] (nav2_straightline_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.122833] (-) TimerEvent: {}
+[6.128165] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.129226] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.129430] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner/include\n'}
+[6.129520] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.130107] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.130194] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.130968] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.132185] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.132298] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.132790] (nav2_straightline_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.141664] (nav2_straightline_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.222993] (-) TimerEvent: {}
+[6.308674] (nav2_straightline_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[6.311803] (nav2_straightline_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/umarv/ws/src/build/nav2_straightline_planner\n'}
+[6.320038] (nav2_straightline_planner) CommandEnded: {'returncode': 0}
+[6.321904] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'build'}
+[6.322033] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/umarv/ws/src/build/nav2_straightline_planner', '--', '-j8', '-l8'], 'cwd': '/home/umarv/ws/src/build/nav2_straightline_planner', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws/src/navigation2_tutorials'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/umarv/ws/src/build/nav2_straightline_planner'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.323123] (-) TimerEvent: {}
+[6.353115] (nav2_straightline_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_straightline_planner_plugin\x1b[0m\n'}
+[6.423331] (-) TimerEvent: {}
+[6.451814] (nav2_straightline_planner) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_straightline_planner_plugin.so\x1b[0m\n'}
+[6.523478] (-) TimerEvent: {}
+[6.624059] (-) TimerEvent: {}
+[6.679213] (nav2_straightline_planner) StdoutLine: {'line': b'[100%] Built target nav2_straightline_planner_plugin\n'}
+[6.686991] (nav2_straightline_planner) CommandEnded: {'returncode': 0}
+[6.704577] (nav2_straightline_planner) JobProgress: {'identifier': 'nav2_straightline_planner', 'progress': 'install'}
+[6.710666] (nav2_straightline_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/umarv/ws/src/build/nav2_straightline_planner'], 'cwd': '/home/umarv/ws/src/build/nav2_straightline_planner', 'env': OrderedDict([('HOSTNAME', 'umarv-ros2'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/wsl/lib'), ('HOME', '/home/umarv'), ('OLDPWD', '/home/umarv/ws/src/navigation2_tutorials'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LIBVA_DRIVER_NAME', 'd3d12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/umarv/ws/src/build/nav2_straightline_planner'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.715219] (nav2_straightline_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.715505] (nav2_straightline_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.715756] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner//global_planner_plugin.xml\n'}
+[6.721867] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so\n'}
+[6.724236] (-) TimerEvent: {}
+[6.728540] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/include//nav2_straightline_planner/straight_line_planner.hpp\n'}
+[6.734683] (nav2_straightline_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml\n'}
+[6.734892] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.sh\n'}
+[6.741594] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.dsv\n'}
+[6.747570] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_planner\n'}
+[6.752519] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_planner\n'}
+[6.759690] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.sh\n'}
+[6.765233] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.dsv\n'}
+[6.771442] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.sh\n'}
+[6.778111] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.dsv\n'}
+[6.784848] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.bash\n'}
+[6.790904] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.sh\n'}
+[6.796223] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.zsh\n'}
+[6.802123] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.dsv\n'}
+[6.807282] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv\n'}
+[6.812631] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/ament_index/resource_index/packages/nav2_straightline_planner\n'}
+[6.817859] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_straightline_planner\n'}
+[6.823008] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.824437] (-) TimerEvent: {}
+[6.828542] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.834229] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.840814] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig.cmake\n'}
+[6.846303] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig-version.cmake\n'}
+[6.851850] (nav2_straightline_planner) StdoutLine: {'line': b'-- Symlinking: /home/umarv/ws/src/install/nav2_straightline_planner/share/nav2_straightline_planner/package.xml\n'}
+[6.858517] (nav2_straightline_planner) CommandEnded: {'returncode': 0}
+[6.924663] (-) TimerEvent: {}
+[6.971556] (nav2_straightline_planner) JobEnded: {'identifier': 'nav2_straightline_planner', 'rc': 0}
+[6.972088] (-) EventReactorShutdown: {}

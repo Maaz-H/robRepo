@@ -1,0 +1,21 @@
+[0.181s] Invoking command in '/home/umarv/ws/src/build/sam_bot_description': /usr/bin/cmake /home/umarv/ws/src/navigation2_tutorials/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/sam_bot_description
+[0.229s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.230s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.230s]   has asked CMake to find a package configuration file provided by
+[0.230s]   "ament_cmake", but CMake did not find one.
+[0.230s] 
+[0.230s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.230s]   any of the following names:
+[0.231s] 
+[0.231s]     ament_cmakeConfig.cmake
+[0.231s]     ament_cmake-config.cmake
+[0.232s] 
+[0.232s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.232s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.233s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.234s]   has been installed.
+[0.236s] 
+[0.237s] [0m
+[0.238s] -- Configuring incomplete, errors occurred!
+[0.239s] See also "/home/umarv/ws/src/build/sam_bot_description/CMakeFiles/CMakeOutput.log".
+[0.243s] Invoked command in '/home/umarv/ws/src/build/sam_bot_description' returned '1': /usr/bin/cmake /home/umarv/ws/src/navigation2_tutorials/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/sam_bot_description

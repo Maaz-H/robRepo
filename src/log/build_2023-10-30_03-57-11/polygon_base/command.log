@@ -1,0 +1,2 @@
+Invoking command in '/home/umarv/ws/src/build/polygon_base': /usr/bin/cmake --build /home/umarv/ws/src/build/polygon_base -- -j8 -l8
+Invoked command in '/home/umarv/ws/src/build/polygon_base' returned '2': /usr/bin/cmake --build /home/umarv/ws/src/build/polygon_base -- -j8 -l8

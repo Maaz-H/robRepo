@@ -1,0 +1,24 @@
+[0.096s] Invoking command in '/home/umarv/ws/src/build/nav2_sms_behavior': AMENT_PREFIX_PATH=/home/umarv/ws/src/install/nav2_core CMAKE_PREFIX_PATH=/home/umarv/ws/src/install/nav2_core /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_sms_behavior -- -j8 -l8
+[0.144s] [  2%] Built target nav2_sms_behavior__cpp
+[0.149s] [ 11%] Built target nav2_sms_behavior__rosidl_generator_c
+[0.161s] [ 11%] Built target ament_cmake_python_copy_nav2_sms_behavior
+[0.166s] [ 20%] Built target nav2_sms_behavior__rosidl_typesupport_cpp
+[0.167s] [ 29%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_cpp
+[0.167s] [ 38%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_cpp
+[0.173s] [ 55%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c
+[0.173s] [ 58%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c
+[0.174s] [ 64%] Built target nav2_sms_behavior__rosidl_typesupport_c
+[0.187s] [ 64%] Built target nav2_sms_behavior
+[0.193s] [ 73%] Built target nav2_sms_behavior_plugin
+[0.202s] [ 76%] Built target nav2_sms_behavior__py
+[0.218s] [ 82%] Built target nav2_sms_behavior__rosidl_generator_py
+[0.234s] [ 94%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c__pyext
+[0.234s] [ 94%] Built target nav2_sms_behavior__rosidl_typesupport_c__pyext
+[0.235s] [100%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c__pyext
+[0.314s] running egg_info
+[0.316s] writing nav2_sms_behavior.egg-info/PKG-INFO
+[0.316s] writing dependency_links to nav2_sms_behavior.egg-info/dependency_links.txt
+[0.316s] writing top-level names to nav2_sms_behavior.egg-info/top_level.txt
+[0.318s] reading manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[0.319s] writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[0.340s] [100%] Built target ament_cmake_python_build_nav2_sms_behavior_egg

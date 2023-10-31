@@ -1,0 +1,21 @@
+[0.186s] Invoking command in '/home/umarv/ws/src/build/nav2_sms_behavior': /usr/bin/cmake /home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_sms_behavior
+[0.210s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.211s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.211s]   has asked CMake to find a package configuration file provided by
+[0.211s]   "ament_cmake", but CMake did not find one.
+[0.212s] 
+[0.212s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.213s]   any of the following names:
+[0.214s] 
+[0.215s]     ament_cmakeConfig.cmake
+[0.215s]     ament_cmake-config.cmake
+[0.216s] 
+[0.216s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.216s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.216s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.217s]   has been installed.
+[0.218s] 
+[0.219s] [0m
+[0.219s] -- Configuring incomplete, errors occurred!
+[0.220s] See also "/home/umarv/ws/src/build/nav2_sms_behavior/CMakeFiles/CMakeOutput.log".
+[0.234s] Invoked command in '/home/umarv/ws/src/build/nav2_sms_behavior' returned '1': /usr/bin/cmake /home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_sms_behavior

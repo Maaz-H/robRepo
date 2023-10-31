@@ -1,0 +1,2 @@
+Invoking command in '/home/umarv/ws/build/nav2_sms_behavior': /usr/bin/cmake --build /home/umarv/ws/build/nav2_sms_behavior -- -j8 -l8
+Invoked command in '/home/umarv/ws/build/nav2_sms_behavior' returned '2': /usr/bin/cmake --build /home/umarv/ws/build/nav2_sms_behavior -- -j8 -l8

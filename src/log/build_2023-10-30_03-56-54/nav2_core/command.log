@@ -1,0 +1,1 @@
+Invoking command in '/home/umarv/ws/src/build/nav2_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/umarv/ws/src/nav2_core -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_core

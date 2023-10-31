@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+ModuleNotFoundError: No module named 'rosidl_generator_c'
+gmake[2]: *** [CMakeFiles/nav2_sms_behavior__rosidl_generator_c.dir/build.make:124: rosidl_generator_c/nav2_sms_behavior/action/send_sms.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/nav2_sms_behavior__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+ModuleNotFoundError: No module named 'rosidl_generator_cpp'
+gmake[2]: *** [CMakeFiles/nav2_sms_behavior__cpp.dir/build.make:128: rosidl_generator_cpp/nav2_sms_behavior/action/send_sms.hpp] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/nav2_sms_behavior__cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

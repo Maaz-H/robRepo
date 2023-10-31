@@ -1,0 +1,28 @@
+[0.207s] Invoking command in '/home/umarv/ws/build/nav2_sms_behavior': /usr/bin/cmake --build /home/umarv/ws/build/nav2_sms_behavior -- -j8 -l8
+[0.237s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.248s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.254s] [  5%] Built target ament_cmake_python_copy_nav2_sms_behavior
+[0.259s] Traceback (most recent call last):
+[0.259s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[0.259s]     from rosidl_generator_c import generate_c
+[0.260s] ModuleNotFoundError: No module named 'rosidl_generator_c'
+[0.263s] gmake[2]: *** [CMakeFiles/nav2_sms_behavior__rosidl_generator_c.dir/build.make:124: rosidl_generator_c/nav2_sms_behavior/action/send_sms.h] Error 1
+[0.263s] gmake[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/nav2_sms_behavior__rosidl_generator_c.dir/all] Error 2
+[0.263s] gmake[1]: *** Waiting for unfinished jobs....
+[0.270s] Traceback (most recent call last):
+[0.270s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[0.272s]     from rosidl_generator_cpp import generate_cpp
+[0.275s] ModuleNotFoundError: No module named 'rosidl_generator_cpp'
+[0.288s] gmake[2]: *** [CMakeFiles/nav2_sms_behavior__cpp.dir/build.make:128: rosidl_generator_cpp/nav2_sms_behavior/action/send_sms.hpp] Error 1
+[0.288s] gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/nav2_sms_behavior__cpp.dir/all] Error 2
+[0.416s] running egg_info
+[0.418s] creating nav2_sms_behavior.egg-info
+[0.419s] writing nav2_sms_behavior.egg-info/PKG-INFO
+[0.419s] writing dependency_links to nav2_sms_behavior.egg-info/dependency_links.txt
+[0.420s] writing top-level names to nav2_sms_behavior.egg-info/top_level.txt
+[0.421s] writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[0.421s] reading manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[0.422s] writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[0.441s] [  5%] Built target ament_cmake_python_build_nav2_sms_behavior_egg
+[0.442s] gmake: *** [Makefile:146: all] Error 2
+[0.508s] Invoked command in '/home/umarv/ws/build/nav2_sms_behavior' returned '2': /usr/bin/cmake --build /home/umarv/ws/build/nav2_sms_behavior -- -j8 -l8

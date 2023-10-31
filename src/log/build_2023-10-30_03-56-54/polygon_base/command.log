@@ -1,0 +1,1 @@
+Invoking command in '/home/umarv/ws/src/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/umarv/ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/polygon_base

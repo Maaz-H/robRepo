@@ -1,0 +1,142 @@
+[0.308s] Invoking command in '/home/umarv/ws/src/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_sms_behavior
+[0.323s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.523s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.658s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.730s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.738s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.756s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.779s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.912s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.916s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.027s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.058s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.124s] -- Looking for pthread.h
+[1.184s] -- Looking for pthread.h - found
+[1.184s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.242s] -- Found Threads: TRUE  
+[1.432s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.526s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.578s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.811s] -- Found nav2_util: 1.1.12 (/opt/ros/humble/share/nav2_util/cmake)
+[2.331s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.332s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.332s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.499s] -- Found nav2_costmap_2d: 1.1.12 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[3.297s] -- Found nav2_core: 1.1.12 (/opt/ros/humble/share/nav2_core/cmake)
+[3.911s] -- Found nav2_behaviors: 1.1.12 (/opt/ros/humble/share/nav2_behaviors/cmake)
+[7.461s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.537s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[7.779s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.219s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.223s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.242s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.242s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.242s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.242s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.265s] -- Found PythonExtra: .so  
+[17.952s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.981s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.982s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.983s] -- Configured cppcheck include dirs: /home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior/include
+[17.983s] -- Configured cppcheck exclude dirs and/or files: 
+[17.983s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[17.983s] -- Configured cpplint exclude dirs and/or files: 
+[17.984s] -- Added test 'lint_cmake' to check CMake code style
+[17.984s] -- Added test 'uncrustify' to check C / C++ code style
+[17.984s] -- Configured uncrustify additional arguments: 
+[17.985s] -- Added test 'xmllint' to check XML markup files
+[17.986s] -- Configuring done
+[18.050s] -- Generating done
+[18.053s] -- Build files have been written to: /home/umarv/ws/src/build/nav2_sms_behavior
+[18.064s] Invoked command in '/home/umarv/ws/src/build/nav2_sms_behavior' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior -DCMAKE_INSTALL_PREFIX=/home/umarv/ws/src/install/nav2_sms_behavior
+[18.066s] Invoking command in '/home/umarv/ws/src/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_sms_behavior -- -j8 -l8
+[18.097s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[18.104s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.112s] [  5%] Built target ament_cmake_python_copy_nav2_sms_behavior
+[18.333s] running egg_info
+[18.334s] creating nav2_sms_behavior.egg-info
+[18.334s] writing nav2_sms_behavior.egg-info/PKG-INFO
+[18.334s] writing dependency_links to nav2_sms_behavior.egg-info/dependency_links.txt
+[18.334s] writing top-level names to nav2_sms_behavior.egg-info/top_level.txt
+[18.334s] writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[18.336s] reading manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[18.336s] writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[18.361s] [  5%] Built target ament_cmake_python_build_nav2_sms_behavior_egg
+[18.579s] [  5%] Built target nav2_sms_behavior__cpp
+[18.587s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.587s] [ 17%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_generator_c.dir/rosidl_generator_c/nav2_sms_behavior/action/detail/send_sms__functions.c.o[0m
+[18.587s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.587s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.703s] [ 20%] [32m[1mLinking C shared library libnav2_sms_behavior__rosidl_generator_c.so[0m
+[18.730s] [ 20%] Built target nav2_sms_behavior__rosidl_generator_c
+[18.740s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.740s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.740s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.938s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_sms_behavior/action/send_sms__type_support.cpp.o[0m
+[19.022s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_sms_behavior/action/detail/send_sms__type_support.cpp.o[0m
+[19.092s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_sms_behavior/action/detail/dds_fastrtps/send_sms__type_support.cpp.o[0m
+[19.123s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_sms_behavior/action/send_sms__type_support.cpp.o[0m
+[19.170s] [ 44%] [32m[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_c.so[0m
+[19.205s] [ 44%] Built target nav2_sms_behavior__rosidl_typesupport_c
+[19.240s] [ 47%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_sms_behavior/action/detail/send_sms__type_support.c.o[0m
+[19.249s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_sms_behavior/action/detail/send_sms__type_support_c.cpp.o[0m
+[19.289s] [ 52%] [32m[1mLinking C shared library libnav2_sms_behavior__rosidl_typesupport_introspection_c.so[0m
+[19.323s] [ 52%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c
+[19.380s] [ 55%] [32m[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_cpp.so[0m
+[19.417s] [ 55%] Built target nav2_sms_behavior__rosidl_typesupport_cpp
+[19.434s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior_plugin.dir/src/send_sms.cpp.o[0m
+[19.435s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_sms_behavior_plugin.dir/src/twilio.cpp.o[0m
+[19.579s] [ 64%] [32m[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_introspection_cpp.so[0m
+[19.589s] [ 67%] [32m[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_fastrtps_c.so[0m
+[19.657s] [ 67%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_cpp
+[19.673s] [ 70%] [32m[1mLinking CXX shared library libnav2_sms_behavior__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.690s] [ 70%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c
+[19.755s] [ 70%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_cpp
+[19.773s] [ 70%] Built target nav2_sms_behavior
+[19.795s] [ 73%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.572s] [ 73%] Built target nav2_sms_behavior__py
+[20.590s] [ 76%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_generator_py.dir/rosidl_generator_py/nav2_sms_behavior/action/_send_sms_s.c.o[0m
+[20.711s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/libnav2_sms_behavior__rosidl_generator_py.so[0m
+[20.741s] [ 79%] Built target nav2_sms_behavior__rosidl_generator_py
+[20.760s] [ 85%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.760s] [ 85%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_c.c.o[0m
+[20.760s] [ 88%] [32mBuilding C object CMakeFiles/nav2_sms_behavior__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.870s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.879s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.883s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[20.904s] [ 97%] Built target nav2_sms_behavior__rosidl_typesupport_c__pyext
+[20.911s] [ 97%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c__pyext
+[20.915s] [ 97%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c__pyext
+[24.887s] [100%] [32m[1mLinking CXX shared library libnav2_sms_behavior_plugin.so[0m
+[25.244s] [100%] Built target nav2_sms_behavior_plugin
+[25.252s] Invoked command in '/home/umarv/ws/src/build/nav2_sms_behavior' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_sms_behavior -- -j8 -l8
+[25.307s] Invoking command in '/home/umarv/ws/src/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/umarv/ws/src/build/nav2_sms_behavior
+[25.313s] -- Install configuration: ""
+[25.314s] [31mCMake Error at cmake_install.cmake:46 (file):
+[25.314s]   file cannot create directory:
+[25.314s]   /home/umarv/ws/src/install/nav2_sms_behavior/share/ament_index/resource_index/rosidl_interfaces.
+[25.314s]   Maybe need administrative privileges.
+[25.314s] 
+[25.315s] [0m
+[25.315s] Invoked command in '/home/umarv/ws/src/build/nav2_sms_behavior' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/umarv/ws/src/build/nav2_sms_behavior
+[25.405s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 84, in build
+    create_environment_scripts(
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts
+    create_file_with_runtime_dependencies(prefix_path, pkg))
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies
+    path.write_text(
+  File "/usr/lib/python3.10/pathlib.py", line 1154, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/umarv/ws/src/install/nav2_sms_behavior/share/colcon-core/packages/nav2_sms_behavior'

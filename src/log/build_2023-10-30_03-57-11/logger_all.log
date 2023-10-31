@@ -1,0 +1,378 @@
+[0.406s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.406s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb9f2ccd570>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb9f2cccee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb9f2cccee0>>, mixin_verb=('build',))
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.431s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.431s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.432s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/umarv/ws/src'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_core) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'nav2_core' with type 'ros.ament_cmake' and name 'nav2_core'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/build) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/build) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/build) ignored
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/install) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/install) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/install) ignored
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/log) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/log) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/log) ignored
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/nav2_gps_waypoint_follower_demo' with type 'ros.ament_python' and name 'nav2_gps_waypoint_follower_demo'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/nav2_gradient_costmap_plugin' with type 'ros.ament_cmake' and name 'nav2_gradient_costmap_plugin'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_sms_behavior) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/nav2_sms_behavior' with type 'ros.ament_cmake' and name 'nav2_sms_behavior'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_straightline_planner) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/nav2_straightline_planner' with type 'ros.ament_cmake' and name 'nav2_straightline_planner'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/sam_bot_description' with type 'ros.ament_cmake' and name 'sam_bot_description'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(polygon_base) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'nav2_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.491s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/umarv/ws/src/build/nav2_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/umarv/ws/src/install/nav2_core', 'merge_install': False, 'path': '/home/umarv/ws/src/nav2_core', 'symlink_install': False, 'test_result_base': None}
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_gps_waypoint_follower_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/umarv/ws/src/build/nav2_gps_waypoint_follower_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo', 'merge_install': False, 'path': '/home/umarv/ws/src/navigation2_tutorials/nav2_gps_waypoint_follower_demo', 'symlink_install': False, 'test_result_base': None}
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_target' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_gradient_costmap_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin', 'merge_install': False, 'path': '/home/umarv/ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/umarv/ws/src/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/umarv/ws/src/install/polygon_base', 'merge_install': False, 'path': '/home/umarv/ws/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'sam_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/umarv/ws/src/build/sam_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/umarv/ws/src/install/sam_bot_description', 'merge_install': False, 'path': '/home/umarv/ws/src/navigation2_tutorials/sam_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'cmake_target' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'cmake_clean_cache' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'cmake_clean_first' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'cmake_force_configure' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'ament_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'catkin_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav2_sms_behavior' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.511s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_sms_behavior' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/umarv/ws/src/build/nav2_sms_behavior', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/umarv/ws/src/install/nav2_sms_behavior', 'merge_install': False, 'path': '/home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior', 'symlink_install': False, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_straightline_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/umarv/ws/src/build/nav2_straightline_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/umarv/ws/src/install/nav2_straightline_planner', 'merge_install': False, 'path': '/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner', 'symlink_install': False, 'test_result_base': None}
+[0.519s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/umarv/ws/src/nav2_core' with build type 'ament_cmake'
+[0.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/umarv/ws/src/nav2_core'
+[0.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.536s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/umarv/ws/src/navigation2_tutorials/nav2_gps_waypoint_follower_demo' with build type 'ament_python'
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gps_waypoint_follower_demo', 'ament_prefix_path')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.554s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/umarv/ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin' with build type 'ament_cmake'
+[0.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/umarv/ws/src/navigation2_tutorials/nav2_gradient_costmap_plugin'
+[0.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.565s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/umarv/ws/src/polygon_base' with build type 'ament_cmake'
+[0.565s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/umarv/ws/src/polygon_base'
+[0.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/umarv/ws/src/navigation2_tutorials/sam_bot_description' with build type 'ament_cmake'
+[0.576s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/umarv/ws/src/navigation2_tutorials/sam_bot_description'
+[0.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/nav2_core': /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_core -- -j8 -l8
+[0.736s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/umarv/ws/src/navigation2_tutorials/nav2_gps_waypoint_follower_demo'
+[0.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin': /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_gradient_costmap_plugin -- -j8 -l8
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/polygon_base': /usr/bin/cmake --build /home/umarv/ws/src/build/polygon_base -- -j8 -l8
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/sam_bot_description': /usr/bin/cmake --build /home/umarv/ws/src/build/sam_bot_description -- -j8 -l8
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/umarv/ws/src/build/nav2_core' returned '0': /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_core -- -j8 -l8
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/nav2_core': /usr/bin/cmake --install /home/umarv/ws/src/build/nav2_core
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/umarv/ws/src/build/sam_bot_description' returned '0': /usr/bin/cmake --build /home/umarv/ws/src/build/sam_bot_description -- -j8 -l8
+[0.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_core)
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/umarv/ws/src/build/nav2_core' returned '0': /usr/bin/cmake --install /home/umarv/ws/src/build/nav2_core
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core' for CMake module files
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core' for CMake config files
+[0.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_core', 'cmake_prefix_path')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_core/share/nav2_core/hook/cmake_prefix_path.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/umarv/ws/src/install/nav2_core/share/nav2_core/hook/cmake_prefix_path.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_core/share/nav2_core/hook/cmake_prefix_path.sh'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core/bin'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core/lib/pkgconfig/nav2_core.pc'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core/lib/python3.10/site-packages'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core/bin'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.sh'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.bash'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.zsh'
+[0.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/umarv/ws/src/install/nav2_core/share/colcon-core/packages/nav2_core)
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/sam_bot_description': /usr/bin/cmake --install /home/umarv/ws/src/build/sam_bot_description
+[0.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin' returned '0': /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_gradient_costmap_plugin -- -j8 -l8
+[0.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_description)
+[0.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/umarv/ws/src/build/sam_bot_description' returned '0': /usr/bin/cmake --install /home/umarv/ws/src/build/sam_bot_description
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description' for CMake module files
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description' for CMake config files
+[0.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_description', 'cmake_prefix_path')
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.ps1'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.dsv'
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.sh'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description/bin'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description/lib/pkgconfig/sam_bot_description.pc'
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description/lib/python3.10/site-packages'
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description/bin'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.sh'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.bash'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.zsh'
+[0.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/umarv/ws/src/install/sam_bot_description/share/colcon-core/packages/sam_bot_description)
+[0.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_core)
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core' for CMake module files
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core' for CMake config files
+[0.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_core', 'cmake_prefix_path')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_core/share/nav2_core/hook/cmake_prefix_path.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/umarv/ws/src/install/nav2_core/share/nav2_core/hook/cmake_prefix_path.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_core/share/nav2_core/hook/cmake_prefix_path.sh'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core/bin'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core/lib/pkgconfig/nav2_core.pc'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core/lib/python3.10/site-packages'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_core/bin'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.sh'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.bash'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_core/share/nav2_core/package.zsh'
+[0.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/umarv/ws/src/install/nav2_core/share/colcon-core/packages/nav2_core)
+[0.900s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior' with build type 'ament_cmake'
+[0.900s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/umarv/ws/src/navigation2_tutorials/nav2_sms_behavior'
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin': /usr/bin/cmake --install /home/umarv/ws/src/build/nav2_gradient_costmap_plugin
+[0.907s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.908s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.913s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner' with build type 'ament_cmake'
+[0.914s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/umarv/ws/src/navigation2_tutorials/nav2_straightline_planner'
+[0.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/umarv/ws/src/build/polygon_base' returned '2': /usr/bin/cmake --build /home/umarv/ws/src/build/polygon_base -- -j8 -l8
+[0.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_description)
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description' for CMake module files
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description' for CMake config files
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_description', 'cmake_prefix_path')
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.sh'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description/bin'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description/lib/pkgconfig/sam_bot_description.pc'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description/lib/python3.10/site-packages'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/sam_bot_description/bin'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.ps1'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.dsv'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.sh'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.bash'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/sam_bot_description/share/sam_bot_description/package.zsh'
+[0.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/umarv/ws/src/install/sam_bot_description/share/colcon-core/packages/sam_bot_description)
+[0.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_gradient_costmap_plugin)
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/umarv/ws/src/build/nav2_gradient_costmap_plugin' returned '0': /usr/bin/cmake --install /home/umarv/ws/src/build/nav2_gradient_costmap_plugin
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin' for CMake module files
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin' for CMake config files
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'cmake_prefix_path')
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.sh'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/lib'
+[0.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'ld_library_path_lib')
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/bin'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/lib/pkgconfig/nav2_gradient_costmap_plugin.pc'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/lib/python3.10/site-packages'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/bin'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.sh'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.bash'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.zsh'
+[0.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/umarv/ws/src/install/nav2_gradient_costmap_plugin/share/colcon-core/packages/nav2_gradient_costmap_plugin)
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/nav2_sms_behavior': AMENT_PREFIX_PATH=/home/umarv/ws/src/install/nav2_core CMAKE_PREFIX_PATH=/home/umarv/ws/src/install/nav2_core /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_sms_behavior -- -j8 -l8
+[1.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/umarv/ws/src/build/nav2_straightline_planner': AMENT_PREFIX_PATH=/home/umarv/ws/src/install/nav2_core CMAKE_PREFIX_PATH=/home/umarv/ws/src/install/nav2_core /usr/bin/cmake --build /home/umarv/ws/src/build/nav2_straightline_planner -- -j8 -l8
+[1.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/polygon_base' for CMake module files
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/polygon_base' for CMake config files
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/polygon_base/bin'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/polygon_base/lib/python3.10/site-packages'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/umarv/ws/src/install/polygon_base/bin'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/polygon_base/share/polygon_base/package.ps1'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/umarv/ws/src/install/polygon_base/share/polygon_base/package.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/polygon_base/share/polygon_base/package.sh'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/polygon_base/share/polygon_base/package.bash'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/umarv/ws/src/install/polygon_base/share/polygon_base/package.zsh'
+[1.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/umarv/ws/src/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.263s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.274s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.277s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.277s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/umarv/ws/src/install/local_setup.ps1'
+[1.285s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/umarv/ws/src/install/_local_setup_util_ps1.py'
+[1.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/umarv/ws/src/install/setup.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/umarv/ws/src/install/local_setup.sh'
+[1.294s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/umarv/ws/src/install/_local_setup_util_sh.py'
+[1.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/umarv/ws/src/install/setup.sh'
+[1.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/umarv/ws/src/install/local_setup.bash'
+[1.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/umarv/ws/src/install/setup.bash'
+[1.309s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/umarv/ws/src/install/local_setup.zsh'
+[1.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/umarv/ws/src/install/setup.zsh'
